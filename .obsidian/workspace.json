@@ -11,10 +11,14 @@
             "id": "25f546ff413315d0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Sans titre.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nouvel onglet"
+              "title": "Sans titre"
             }
           }
         ]
@@ -189,8 +193,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "957ccd4494e1b776",
+  "active": "25f546ff413315d0",
   "lastOpenFiles": [
+    "Sans titre.md",
     "test gggg.md",
     "2025-12-06.md",
     "2020-10-08.md",
