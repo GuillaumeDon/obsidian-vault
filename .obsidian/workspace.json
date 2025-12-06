@@ -162,11 +162,13 @@
       "daily-notes:Ouvrir la note quotidienne": false,
       "templates:Insérer le modèle": false,
       "command-palette:Ouvrir la palette de commandes": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "yet-another-obsidian-synchronizer:YAOS": false
     }
   },
-  "active": "574a6dfd8abf7551",
+  "active": "957ccd4494e1b776",
   "lastOpenFiles": [
+    "test git",
     "OpenClassroom/Concevez votre réseau TCP IP/Partie 1-Créez l’architecture physique de votre réseau/02-Découvrez l’outil de simulation Packet Tracer.md",
     "OpenClassroom/Concevez votre réseau TCP IP/Liste des résumés.md",
     "OpenClassroom/Concevez votre réseau TCP IP/Partie 1-Créez l’architecture physique de votre réseau/01-Découvrez l’organisation d’un réseau.md",
