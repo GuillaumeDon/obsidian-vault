@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8fa20c6807cf22cc",
+        "id": "992687e710441caf",
         "type": "tabs",
         "children": [
           {
-            "id": "574a6dfd8abf7551",
+            "id": "85d4965951f30df1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ynov/M1-Culture d'entreprise/01-Culture en entreprise.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "01-Culture en entreprise"
+              "title": "Nouvel onglet"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 298
   },
   "right": {
     "id": "65f6e81746505f79",
@@ -160,13 +156,23 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "437bac9b2837ec68",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,11 +183,19 @@
       "templates:Insérer le modèle": false,
       "command-palette:Ouvrir la palette de commandes": false,
       "bases:Create new base": false,
-      "yet-another-obsidian-synchronizer:YAOS": false
+      "yet-another-obsidian-synchronizer:YAOS": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-kanban:Create new board": false,
+      "remotely-save:Remotely Save": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "957ccd4494e1b776",
   "lastOpenFiles": [
+    "2025-12-06.md",
+    "2020-10-08.md",
+    "October 20th 2025.md",
+    "Ynov/M1-Culture d'entreprise/01-Culture en entreprise.md",
     "test git/gggggggggggggggg.md",
     "test git",
     "OpenClassroom/Concevez votre réseau TCP IP/Partie 1-Créez l’architecture physique de votre réseau/02-Découvrez l’outil de simulation Packet Tracer.md",
@@ -191,7 +205,6 @@
     "Ynov/M1-Culture d'entreprise/02-Culture en entreprise.md",
     "OpenClassroom/Concevez votre réseau TCP IP/Partie 3-Optimisez votre réseau en ajoutant des services/01-Automatisez l’attribution d’adresses IP grâce au DHCP.md",
     "OpenClassroom/Concevez votre réseau TCP IP/Partie 2-Configurez votre réseau pour assurer la communication/05-Indiquez une passerelle par défaut aux équipements terminaux.md",
-    "Ynov/M1-Culture d'entreprise/01-Culture en entreprise.md",
     "OpenClassroom/Concevez votre réseau TCP IP/Partie 3-Optimisez votre réseau en ajoutant des services/03-Déployez un serveur DNS sous Packet Tracer.md",
     "Ynov/M1-Culture d'entreprise",
     "Ynov",
