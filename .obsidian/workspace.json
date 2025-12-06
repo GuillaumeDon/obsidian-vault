@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "992687e710441caf",
+        "id": "466c4b8ebcba5ac3",
         "type": "tabs",
         "children": [
           {
-            "id": "85d4965951f30df1",
+            "id": "25f546ff413315d0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "test gggg.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "test gggg"
+              "title": "Nouvel onglet"
             }
           }
         ]
@@ -157,8 +153,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -187,14 +183,13 @@
       "templates:Insérer le modèle": false,
       "command-palette:Ouvrir la palette de commandes": false,
       "bases:Create new base": false,
-      "yet-another-obsidian-synchronizer:YAOS": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-kanban:Create new board": false,
       "remotely-save:Remotely Save": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "85d4965951f30df1",
+  "active": "957ccd4494e1b776",
   "lastOpenFiles": [
     "test gggg.md",
     "2025-12-06.md",
