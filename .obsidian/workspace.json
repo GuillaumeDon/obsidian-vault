@@ -11,10 +11,14 @@
             "id": "85d4965951f30df1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "test gggg.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nouvel onglet"
+              "title": "test gggg"
             }
           }
         ]
@@ -190,8 +194,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "437bac9b2837ec68",
+  "active": "85d4965951f30df1",
   "lastOpenFiles": [
+    "test gggg.md",
     "2025-12-06.md",
     "2020-10-08.md",
     "October 20th 2025.md",
