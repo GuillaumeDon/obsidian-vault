@@ -11,10 +11,14 @@
             "id": "574a6dfd8abf7551",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "test git/gggggggggggggggg.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nouvel onglet"
+              "title": "gggggggggggggggg"
             }
           }
         ]
@@ -166,8 +170,9 @@
       "yet-another-obsidian-synchronizer:YAOS": false
     }
   },
-  "active": "957ccd4494e1b776",
+  "active": "574a6dfd8abf7551",
   "lastOpenFiles": [
+    "test git/gggggggggggggggg.md",
     "test git",
     "OpenClassroom/Concevez votre réseau TCP IP/Partie 1-Créez l’architecture physique de votre réseau/02-Découvrez l’outil de simulation Packet Tracer.md",
     "OpenClassroom/Concevez votre réseau TCP IP/Liste des résumés.md",
