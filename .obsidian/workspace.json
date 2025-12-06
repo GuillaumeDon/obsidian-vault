@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "autre test.md",
+                "file": "squalala.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "autre test"
+              "title": "squalala"
             }
           }
         ]
@@ -197,8 +197,10 @@
   },
   "active": "85d4965951f30df1",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "autre test.md",
+    "squalala.md",
+    "conflict-files-obsidian-git.md",
+    "gfcgfxgfb.md",
     "test gggg.md",
     "2025-12-06.md",
     "2020-10-08.md",
@@ -236,7 +238,6 @@
     "OpenClassroom/assets/Pasted image 20251018125212.png",
     "OpenClassroom/assets/Pasted image 20251018124027.png",
     "Tutos Obsidian/Welcome.md",
-    "Tutos Obsidian/create a link.md",
     "OpenClassroom/Concevez votre réseau TCP IP/Partie 1-Créez l’architecture physique de votre réseau",
     "OpenClassroom/Concevez votre réseau TCP IP",
     "OpenClassroom/assets",
