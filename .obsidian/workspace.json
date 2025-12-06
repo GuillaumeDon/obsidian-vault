@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "c87cee6a5493518d",
+    "type": "split",
+    "children": [
+      {
+        "id": "8fa20c6807cf22cc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "574a6dfd8abf7551",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nouvel onglet"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cc19d7ee1e43f1d3",
+    "type": "split",
+    "children": [
+      {
+        "id": "27b2bc669230191d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "957ccd4494e1b776",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorateur de fichiers"
+            }
+          },
+          {
+            "id": "296d1ec14e4207f7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "2ec6215a9cd23480",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "65f6e81746505f79",
+    "type": "split",
+    "children": [
+      {
+        "id": "8104449f6df355c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6fd18dd0c00f4e67",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "765ad19d302930d4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "c58109e2c8cfce24",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2f902831f6724734",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "574a6dfd8abf7551",
+  "lastOpenFiles": [
+    "OpenClassroom/Concevez votre réseau TCP IP/Partie 1-Créez l’architecture physique de votre réseau/02-Découvrez l’outil de simulation Packet Tracer.md",
+    "OpenClassroom/Concevez votre réseau TCP IP/Liste des résumés.md",
+    "OpenClassroom/Concevez votre réseau TCP IP/Partie 1-Créez l’architecture physique de votre réseau/01-Découvrez l’organisation d’un réseau.md",
+    "OpenClassroom/Concevez votre réseau TCP IP/Partie 2-Configurez votre réseau pour assurer la communication/01-Identifiez votre machine au sein d’un réseau local.md",
+    "Ynov/M1-Culture d'entreprise/02-Culture en entreprise.md",
+    "OpenClassroom/Concevez votre réseau TCP IP/Partie 3-Optimisez votre réseau en ajoutant des services/01-Automatisez l’attribution d’adresses IP grâce au DHCP.md",
+    "OpenClassroom/Concevez votre réseau TCP IP/Partie 2-Configurez votre réseau pour assurer la communication/05-Indiquez une passerelle par défaut aux équipements terminaux.md",
+    "Ynov/M1-Culture d'entreprise/01-Culture en entreprise.md",
+    "OpenClassroom/Concevez votre réseau TCP IP/Partie 3-Optimisez votre réseau en ajoutant des services/03-Déployez un serveur DNS sous Packet Tracer.md",
+    "Ynov/M1-Culture d'entreprise",
+    "Ynov",
+    "OpenClassroom/Concevez votre réseau TCP IP/Partie 3-Optimisez votre réseau en ajoutant des services/02-Identifiez les avantages du serveur DNS.md",
+    "OpenClassroom/Concevez votre réseau TCP IP/Partie 3-Optimisez votre réseau en ajoutant des services",
+    "OpenClassroom/Concevez votre réseau TCP IP/Partie 2-Configurez votre réseau pour assurer la communication/06-Prenez du recul sur votre pratique grâce au modèle OSI.md",
+    "OpenClassroom/Concevez votre réseau TCP IP/Partie 2-Configurez votre réseau pour assurer la communication/04-Configurez le routage de votre réseau.md",
+    "OpenClassroom/Concevez votre réseau TCP IP/Partie 2-Configurez votre réseau pour assurer la communication/03-Identifiez votre machine au sein de plusieurs réseaux.md",
+    "OpenClassroom/Concevez votre réseau TCP IP/Partie 2-Configurez votre réseau pour assurer la communication/02-Initiez la communication.md",
+    "OpenClassroom/assets/Pasted image 20251018183756.png",
+    "OpenClassroom/assets/Pasted image 20251018174040.png",
+    "OpenClassroom/assets/Pasted image 20251018174004.png",
+    "OpenClassroom/Concevez votre réseau TCP IP/Partie 1-Créez l’architecture physique de votre réseau/04-Connectez vos machines et votre réseau.md",
+    "OpenClassroom/Concevez votre réseau TCP IP/Partie 1-Créez l’architecture physique de votre réseau/03-Reliez deux machines entre elles.md",
+    "OpenClassroom/Concevez votre réseau TCP IP/Partie 2-Configurez votre réseau pour assurer la communication",
+    "OpenClassroom/assets/Pasted image 20251018141249.png",
+    "OpenClassroom/assets/Pasted image 20251018140851.png",
+    "OpenClassroom/assets/Pasted image 20251018133528.png",
+    "OpenClassroom/assets/Pasted image 20251018133153.png",
+    "OpenClassroom/assets/Pasted image 20251018132919.png",
+    "OpenClassroom/assets/Pasted image 20251018125212.png",
+    "OpenClassroom/assets/Pasted image 20251018124027.png",
+    "Tutos Obsidian/Welcome.md",
+    "Tutos Obsidian/create a link.md",
+    "OpenClassroom/Concevez votre réseau TCP IP/Partie 1-Créez l’architecture physique de votre réseau",
+    "OpenClassroom/Concevez votre réseau TCP IP",
+    "OpenClassroom/assets",
+    "Tutos Obsidian",
+    "OpenClassroom"
+  ]
+}
