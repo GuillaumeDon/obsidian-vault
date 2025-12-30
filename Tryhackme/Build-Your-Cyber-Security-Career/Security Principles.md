@@ -77,3 +77,87 @@ An expanded model adding three granular elements:
     * **Availability** = **SLA** (Service Level Agreements). Downtime = Money lost.
 * **📊 Risk Assessment:**
     * Always map risks to CIA. *"This vulnerability affects **Integrity**, which is critical for our financial records."*
+
+
+
+# 3. 😈 The DAD Triad (The Anti-CIA)
+#TryHackMe #DAD #Attacks #Revision
+
+## 1. The Concept
+The DAD triad represents the failures or attacks against the CIA triad.
+
+| CIA (Defense) 🛡️ | DAD (Attack) ⚔️ | Definition |
+| :--- | :--- | :--- |
+| **Confidentiality** | **Disclosure** | Data is accessed by unauthorized people (Leaks). |
+| **Integrity** | **Alteration** | Data is modified or corrupted (Defacement). |
+| **Availability** | **Destruction / Denial** | System is broken or unreachable (DDoS, Physical damage). |
+
+## 2. Examples
+* **Disclosure:** A hacker dumps the database of user passwords online.
+* **Alteration:** A student hacks the university DB to change their grade from F to A.
+* **Destruction/Denial:** An attacker cuts the fiber optic cable of the data center.
+
+---
+
+## 🌍 Vision GRC (Consultant Focus)
+* **Incident Response:** When classifying an incident, we use DAD terms to describe the *impact*.
+    * *"We have a confirmed **Disclosure** of PII (Personally Identifiable Information)."*
+* **Business Continuity Plan (BCP):** Focuses primarily on preventing **Destruction/Denial** to ensure the business keeps running.
+
+
+# 4. 🏛️ Security Models (The Architecture)
+#TryHackMe #SecurityModels #BellLaPadula #Biba #Revision
+
+## 1. Bell-LaPadula Model (The Military 🪖)
+**Focus:** **CONFIDENTIALITY** (Keeping secrets).
+* **Context:** Used in Government/Military.
+* **The Rules:**
+    1.  **No Read Up (Simple Property):** A lower level cannot read high-level secrets.
+    2.  **No Write Down (Star * Property):** A high level cannot write to a lower level (to prevent accidental leaks).
+* **Mnemonic:** "No Read Up, No Write Down".
+
+## 2. Biba Model (The Scientist 🧪)
+**Focus:** **INTEGRITY** (Keeping data pure).
+* **Context:** Medical, Scientific, Software Development.
+* **The Rules:** (Exact opposite of Bell-LaPadula)
+    1.  **No Read Down (Simple Property):** Do not read from unreliable sources (don't contaminate your mind).
+    2.  **No Write Up (Star * Property):** Unreliable people cannot change high-integrity data.
+* **Mnemonic:** "No Read Down, No Write Up".
+
+## 3. Clark-Wilson Model (The Bank 🏦)
+**Focus:** **TRANSACTIONS**.
+* **Concept:** Users cannot touch data directly. They must use a program/interface (Transformation Procedure).
+* **Key Term:** **CDI** (Constrained Data Item) = The protected data (e.g., Bank Balance).
+
+---
+
+## 🌍 Vision GRC (Consultant Focus)
+* **Access Control Policies:** When writing an ISP (Information Security Policy), you define these rules via **RBAC** (Role-Based Access Control).
+* **Data Classification:** You cannot apply Bell-LaPadula if you haven't classified your data (Public, Internal, Confidential, Restricted). This is a requirement of **ISO 27001 (A.8.2)**.
+
+# 5. 🧅 Defence-in-Depth (Multi-Level Security)
+#TryHackMe #DefenceInDepth #Strategy #Revision
+
+## 1. The Concept
+Never rely on a single protection. Security must be layered like an onion.
+* **Goal:** It is NOT to stop 100% of attacks (impossible).
+* **Real Goal:** To **slow down** the attacker enough to detect them before they reach the data.
+
+## 2. The Layers (The "Onion" Model)
+If an attacker bypasses one layer, the next one should catch them.
+
+1.  **Physical Controls:** Fences, Guards, CCTV, Locked Doors.
+2.  **Technical Controls:** Firewall, Antivirus, Encryption, MFA.
+3.  **Administrative Controls:** Policies, Awareness Training, Background Checks.
+
+> **Example:**
+> A hacker steals a password (User layer fails).
+> -> **MFA** asks for a code (Technical layer blocks them).
+> -> If MFA is bypassed, the **EDR** detects strange behavior (Monitoring layer blocks them).
+
+---
+
+## 🌍 Vision GRC (Consultant Focus)
+* **Single Point of Failure (SPOF):** In an audit, if you see a critical asset protected by only *one* mechanism (e.g., just a password), it's a critical finding.
+* **Cost vs Risk:** Adding layers costs money. You don't put an electric fence around the cafeteria menu. You put it around the Data Center.
+* **ISO 27001:** This standard is built entirely on this principle (Annex A controls cover Physical, People, Tech, and Org).
