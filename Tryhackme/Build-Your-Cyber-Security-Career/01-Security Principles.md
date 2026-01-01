@@ -161,3 +161,108 @@ If an attacker bypasses one layer, the next one should catch them.
 * **Single Point of Failure (SPOF):** In an audit, if you see a critical asset protected by only *one* mechanism (e.g., just a password), it's a critical finding.
 * **Cost vs Risk:** Adding layers costs money. You don't put an electric fence around the cafeteria menu. You put it around the Data Center.
 * **ISO 27001:** This standard is built entirely on this principle (Annex A controls cover Physical, People, Tech, and Org).
+
+# 6. 🏗️ ISO/IEC 19249 (Secure Architecture)
+#TryHackMe #ISO19249 #Architecture #GRC
+
+## 1. Architectural Principles (The Structure)
+How we build the system physically or logically.
+1.  **Domain Separation:** Grouping related components. Each entity has its own domain (e.g., Kernel run level vs User run level).
+2.  **Layering:** Structuring into levels (like the OSI model). Allows forcing security checks at each layer.
+3.  **Encapsulation:** Hiding internal details (OOP). You use an interface (API) instead of touching the data directly.
+4.  **Redundancy:** Ensuring availability. Example: Dual power supplies or RAID disks. If one fails, the other takes over.
+5.  **Virtualization:** Sharing hardware securely. It provides sandboxing (malware in a VM doesn't infect the host).
+
+## 2. Design Principles (The Logic)
+How we write the rules and code.
+1.  **Least Privilege:** Give the minimum permissions needed (Need-to-know basis).
+2.  **Attack Surface Minimisation:** Disable everything you don't need (ports, services, features). Less stuff = Less risks.
+3.  **Centralized Parameter Validation:** Check all inputs in one place to avoid exploits like SQL Injection.
+4.  **Centralized Security Services:** Don't reinvent the wheel. Use a central server for Authentication (SSO) instead of building login forms everywhere.
+5.  **Error & Exception Handling:** When it crashes, fail safe. Don't leak info in error messages.
+
+---
+
+## 🌍 Vision GRC (Consultant Focus)
+* **Security by Design:** L'ISO 19249 est la définition même du "Security by Design" exigé par le **GDPR (Art 25)**.
+* **Hardening:** Le principe "Attack Surface Minimisation" est la base des procédures de **Hardening** (durcissement) des serveurs avant mise en production.
+
+# 7. 🚫 Zero Trust vs. Trust but Verify
+#TryHackMe #ZeroTrust #Strategy #GRC
+
+## 1. Trust but Verify (Legacy Model 👴)
+* **Philosophy:** "I trust you because you are inside the network/building, but I will log your actions just in case."
+* **The Problem:** Once an attacker gets past the firewall (perimeter), they can move freely (Lateral Movement).
+* **Implementation:** Firewalls, IDS/IPS, Logging.
+
+## 2. Zero Trust (Modern Standard 🛡️)
+* **Philosophy:** "Trust is a vulnerability." Treat every user and device as hostile/untrusted, even if they are the CEO or on the office Wi-Fi.
+* **Motto:** **"Never trust, always verify."**
+* **Implementation:**
+    * **Identity First:** Authenticate & Authorize every single request.
+    * **Microsegmentation:** Cutting the network into tiny zones (down to the single host). If one computer is infected, it cannot infect the neighbor.
+* **Benefit:** If a breach occurs, the damage is contained (Blast Radius is minimized).
+
+---
+
+## 🌍 Vision GRC (Consultant Focus)
+* **NIST SP 800-207:** C'est la bible du Zero Trust Architecture (ZTA).
+* **De-perimeterization:** On ne protège plus le "réseau" (car le Cloud n'a pas de murs), on protège la **Donnée** et l'**Identité**.
+
+# 8. ⚠️ Threat vs Vulnerability vs Risk
+#TryHackMe #Vocabulary #RiskManagement #GRC
+
+## 1. The Definitions (The Equation)
+To understand Risk, you must distinguish its components.
+
+* **🔓 Vulnerability (The Weakness):**
+    * *Definition:* A flaw or weakness in the system.
+    * *Example:* A server running Windows XP (outdated), a password written on a post-it, a glass door.
+    * *Key:* It's internal to the system.
+
+* **🥷 Threat (The Potential Danger):**
+    * *Definition:* A potential danger associated with the vulnerability.
+    * *Example:* A hacker, a malware, an earthquake, a thief with a hammer.
+    * *Key:* It's external (usually).
+
+* **📉 Risk (The Probability & Impact):**
+    * *Definition:* The likelihood of a threat exploiting a vulnerability + the impact on the business.
+    * *Formula:* `Risk = Likelihood x Impact` (or `Risk = Threat x Vulnerability`).
+
+> **💡 The Showroom Analogy:**
+> * **Vulnerability:** The door is made of standard glass (it breaks easily).
+> * **Threat:** Someone might break it (burglar, storm).
+> * **Risk:** The probability that it breaks AND the cost of replacing the stolen items.
+
+---
+
+## 🌍 Vision GRC (Consultant Focus)
+* **Risk Assessment:** We never "fix" threats (we can't stop hackers from existing). We fix **Vulnerabilities** to lower the **Risk**.
+* **Zero Risk:** Does not exist. There is always **Residual Risk**.
+
+
+# 9. ☁️ Conclusion & Shared Responsibility Model
+#TryHackMe #CloudSecurity #SharedResponsibility #Revision
+
+## 1. Summary of Achievements 🏆
+We have mastered the core language of Security:
+* **The Triads:** CIA (Defense) vs DAD (Attack).
+* **The Models:** Bell-LaPadula (Confidentiality), Biba (Integrity), ISO/IEC 19249.
+* **The Strategy:** Defence-in-Depth, Trust but Verify vs Zero Trust.
+* **The Vocabulary:** Vulnerability, Threat, Risk.
+
+## 2. The Shared Responsibility Model (Cloud Context)
+With the increased reliance on cloud services, security requires a joint effort.
+
+* **Definition:** A cloud security framework to ensure that each party (Provider & User) is aware of its responsibility.
+* **The Logic:** Security depends on the access level the user has.
+
+### Service Models & Responsibilities:
+* **IaaS (Infrastructure as a Service):**
+    * *User Status:* Has **complete control (and responsibility)** over the Operating System (OS).
+    * *Implication:* You must patch and secure the OS yourself.
+* **SaaS (Software as a Service):**
+    * *User Status:* Has **no direct access** to the underlying Operating System.
+    * *Implication:* The Provider secures the OS/App. The User secures their data and access.
+
+> **Key Takeaway:** Achieving security in the cloud necessitates both the cloud service provider and the user to do their parts.
