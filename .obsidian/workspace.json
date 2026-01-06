@@ -190,8 +190,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c3b1cda1f33623f6",
+  "active": "437bac9b2837ec68",
   "lastOpenFiles": [
+    "Tryhackme/Networking/01-Networking Concepts.md",
+    "Tryhackme/Exploitations Basics/01-Moniker Link (CVE-2024-21413).md",
+    "Tryhackme/Exploitations Basics/02-Introduction Metasploit.md",
+    "Tryhackme/Exploitations Basics",
+    "Notes.md",
     "Moniker Link (CVE-2024-21413).md",
     "Metasploit  Introduction.md",
     "Networking Concepts.md",
@@ -221,13 +226,8 @@
     "test git/gggggggggggggggg.md",
     "test git",
     "OpenClassroom/Concevez votre réseau TCP IP/Partie 1-Créez l’architecture physique de votre réseau/02-Découvrez l’outil de simulation Packet Tracer.md",
-    "OpenClassroom/Concevez votre réseau TCP IP/Liste des résumés.md",
-    "OpenClassroom/Concevez votre réseau TCP IP/Partie 1-Créez l’architecture physique de votre réseau/01-Découvrez l’organisation d’un réseau.md",
-    "OpenClassroom/Concevez votre réseau TCP IP/Partie 2-Configurez votre réseau pour assurer la communication/01-Identifiez votre machine au sein d’un réseau local.md",
-    "OpenClassroom/Concevez votre réseau TCP IP/Partie 3-Optimisez votre réseau en ajoutant des services/01-Automatisez l’attribution d’adresses IP grâce au DHCP.md",
     "Ynov/M1-Culture d'entreprise",
     "Ynov",
-    "OpenClassroom/Concevez votre réseau TCP IP/Partie 3-Optimisez votre réseau en ajoutant des services",
     "OpenClassroom/assets/Pasted image 20251018183756.png",
     "OpenClassroom/assets/Pasted image 20251018174040.png",
     "OpenClassroom/assets/Pasted image 20251018174004.png",
