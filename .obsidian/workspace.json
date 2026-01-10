@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To-do.md",
+                "file": "to-do.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "To-do"
+              "title": "to-do"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Linux-Privilege-Escalation/Introduction à l'élévation de privilèges sous Linux/01-Introduction à l'élévation de privilèges sous Linux.md",
+                "file": "to-do.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Introduction à l'élévation de privilèges sous Linux"
+              "title": "to-do"
             }
           }
         ],
@@ -225,10 +225,11 @@
   },
   "active": "957ccd4494e1b776",
   "lastOpenFiles": [
-    "HTB/Linux-Privilege-Escalation/Linux Privilege Escalation.md",
+    "Nouveau Texte OpenDocument.odt",
     "HTB/Linux-Privilege-Escalation/Introduction à l'élévation de privilèges sous Linux/01-Introduction à l'élévation de privilèges sous Linux.md",
+    "HTB/Linux-Privilege-Escalation/Linux Privilege Escalation.md",
     "HTB/Linux-Privilege-Escalation/Introduction à l'élévation de privilèges sous Linux",
-    "To-do.md",
+    "to-do.md",
     "HTB/Linux-Privilege-Escalation",
     "Tryhackme/Build-Your-Cyber-Security-Career/01-Security Principles.md",
     "HTB",
@@ -260,7 +261,6 @@
     "test gggg.md",
     "2025-12-06.md",
     "2020-10-08.md",
-    "October 20th 2025.md",
     "OpenClassroom/assets/Pasted image 20251018183756.png",
     "OpenClassroom/assets/Pasted image 20251018174040.png",
     "OpenClassroom/assets/Pasted image 20251018174004.png",
