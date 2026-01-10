@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Linux-Privilege-Escalation/Linux Privilege Escalation.md",
+                "file": "HTB/Linux-Privilege-Escalation/Intro-Linux Privilege Escalation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux Privilege Escalation"
+              "title": "Intro-Linux Privilege Escalation"
             }
           },
           {
@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "cheatsheat-Linux Privilege Escalation"
             }
+          },
+          {
+            "id": "5f4311c543c8adff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations/01-Recensement de l'environnement.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01-Recensement de l'environnement"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -225,14 +239,16 @@
   },
   "active": "957ccd4494e1b776",
   "lastOpenFiles": [
-    "HTB/Linux-Privilege-Escalation/Introduction à l'élévation de privilèges sous Linux/01-Introduction à l'élévation de privilèges sous Linux.md",
     "HTB/Linux-Privilege-Escalation/cheatsheat-Linux Privilege Escalation.md",
-    "HTB/Linux-Privilege-Escalation/Linux Privilege Escalation.md",
+    "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations/01-Recensement de l'environnement.md",
+    "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations",
+    "HTB/Linux-Privilege-Escalation/01-Introduction à l'élévation de privilèges sous Linux/01-Introduction à l'élévation de privilèges sous Linux.md",
+    "HTB/Linux-Privilege-Escalation/Intro-Linux Privilege Escalation.md",
     "Tryhackme/Exploitations Basics/02-Introduction Metasploit.md",
     "Metasploit  Introduction.md",
     "to-do.md",
     "Nouveau Texte OpenDocument.odt",
-    "HTB/Linux-Privilege-Escalation/Introduction à l'élévation de privilèges sous Linux",
+    "HTB/Linux-Privilege-Escalation/01-Introduction à l'élévation de privilèges sous Linux",
     "HTB/Linux-Privilege-Escalation",
     "Tryhackme/Build-Your-Cyber-Security-Career/01-Security Principles.md",
     "HTB",
@@ -251,7 +267,6 @@
     "Tryhackme/Build-Your-Cyber-Security-Career",
     "Tryhackme",
     "Ynov/M1-Culture d'entreprise/01-Culture en entreprise.md",
-    "Formation-GRC-avec-Gemini",
     "Ynov/M1-Securite-dans-les-projets/01-Cours.md",
     "Ynov/M1-Culture d'entreprise/02-Culture en entreprise.md",
     "bonjour.md",
@@ -260,7 +275,6 @@
     "autre test.md",
     "test gggg.md",
     "2025-12-06.md",
-    "2020-10-08.md",
     "OpenClassroom/assets/Pasted image 20251018183756.png",
     "OpenClassroom/assets/Pasted image 20251018174040.png",
     "OpenClassroom/assets/Pasted image 20251018174004.png",
