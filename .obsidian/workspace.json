@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux-Privilege-Escalation/Linux Privilege Escalation.md",
+                "file": "HTB/Linux-Privilege-Escalation/Linux Privilege Escalation.md",
                 "mode": "source",
                 "source": false
               },
@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux-Privilege-Escalation/Introduction à l'élévation de privilèges sous Linux/01-Introduction à l'élévation de privilèges sous Linux.md",
+                "file": "HTB/Linux-Privilege-Escalation/Introduction à l'élévation de privilèges sous Linux/01-Introduction à l'élévation de privilèges sous Linux.md",
                 "mode": "source",
                 "source": false
               },
@@ -223,13 +223,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ebf33ff85247dbba",
+  "active": "957ccd4494e1b776",
   "lastOpenFiles": [
-    "Linux-Privilege-Escalation/Linux Privilege Escalation.md",
-    "Linux-Privilege-Escalation/Introduction à l'élévation de privilèges sous Linux/01-Introduction à l'élévation de privilèges sous Linux.md",
-    "Linux-Privilege-Escalation/Introduction à l'élévation de privilèges sous Linux",
+    "HTB/Linux-Privilege-Escalation/Linux Privilege Escalation.md",
+    "HTB/Linux-Privilege-Escalation/Introduction à l'élévation de privilèges sous Linux/01-Introduction à l'élévation de privilèges sous Linux.md",
+    "HTB/Linux-Privilege-Escalation/Introduction à l'élévation de privilèges sous Linux",
     "To-do.md",
-    "Linux-Privilege-Escalation",
+    "HTB/Linux-Privilege-Escalation",
     "Tryhackme/Build-Your-Cyber-Security-Career/01-Security Principles.md",
     "HTB",
     "Tryhackme/Exploitations Basics/02-Introduction Metasploit.md",
