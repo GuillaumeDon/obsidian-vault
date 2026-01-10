@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Linux-Privilege-Escalation/Introduction à l'élévation de privilèges sous Linux/01-Introduction à l'élévation de privilèges sous Linux.md",
+                "file": "Tryhackme/Exploitations Basics/02-Introduction Metasploit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Introduction à l'élévation de privilèges sous Linux"
+              "title": "02-Introduction Metasploit"
             }
           }
         ],
@@ -225,17 +225,17 @@
   },
   "active": "ebf33ff85247dbba",
   "lastOpenFiles": [
+    "Metasploit  Introduction.md",
+    "Tryhackme/Exploitations Basics/02-Introduction Metasploit.md",
+    "HTB/Linux-Privilege-Escalation/Introduction à l'élévation de privilèges sous Linux/01-Introduction à l'élévation de privilèges sous Linux.md",
     "to-do.md",
     "Nouveau Texte OpenDocument.odt",
-    "HTB/Linux-Privilege-Escalation/Introduction à l'élévation de privilèges sous Linux/01-Introduction à l'élévation de privilèges sous Linux.md",
     "HTB/Linux-Privilege-Escalation/Linux Privilege Escalation.md",
     "HTB/Linux-Privilege-Escalation/Introduction à l'élévation de privilèges sous Linux",
     "HTB/Linux-Privilege-Escalation",
     "Tryhackme/Build-Your-Cyber-Security-Career/01-Security Principles.md",
     "HTB",
-    "Tryhackme/Exploitations Basics/02-Introduction Metasploit.md",
     "Notes.md",
-    "Metasploit  Introduction.md",
     "conflict-files-obsidian-git.md",
     "Tryhackme/Networking/01-Networking Concepts.md",
     "Tryhackme/Exploitations Basics/01-Moniker Link (CVE-2024-21413).md",
