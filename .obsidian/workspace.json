@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "to-do.md",
+                "file": "Tryhackme/Build-Your-Cyber-Security-Career/01-Security Principles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "to-do"
+              "title": "01-Security Principles"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "to-do.md",
+                "file": "HTB/Linux-Privilege-Escalation/Introduction à l'élévation de privilèges sous Linux/01-Introduction à l'élévation de privilèges sous Linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "to-do"
+              "title": "01-Introduction à l'élévation de privilèges sous Linux"
             }
           }
         ],
@@ -223,13 +223,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "957ccd4494e1b776",
+  "active": "ebf33ff85247dbba",
   "lastOpenFiles": [
+    "to-do.md",
     "Nouveau Texte OpenDocument.odt",
     "HTB/Linux-Privilege-Escalation/Introduction à l'élévation de privilèges sous Linux/01-Introduction à l'élévation de privilèges sous Linux.md",
     "HTB/Linux-Privilege-Escalation/Linux Privilege Escalation.md",
     "HTB/Linux-Privilege-Escalation/Introduction à l'élévation de privilèges sous Linux",
-    "to-do.md",
     "HTB/Linux-Privilege-Escalation",
     "Tryhackme/Build-Your-Cyber-Security-Career/01-Security Principles.md",
     "HTB",
@@ -253,7 +253,6 @@
     "Formation-GRC-avec-Gemini",
     "Ynov/M1-Securite-dans-les-projets/01-Cours.md",
     "Ynov/M1-Culture d'entreprise/02-Culture en entreprise.md",
-    "Ynov/M1-Securite-dans-les-projets",
     "bonjour.md",
     "gfcgfxgfb.md",
     "squalala.md",
