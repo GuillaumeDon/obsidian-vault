@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To-do.md",
+                "file": "Tryhackme/Networking/01-Networking Concepts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "To-do"
+              "title": "01-Networking Concepts"
             }
           },
           {
@@ -234,15 +234,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "957ccd4494e1b776",
+  "active": "74d8ab743453f132",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "OpenClassroom/assets/Pasted image 20251018123758.png",
+    "HTB/Linux-Privilege-Escalation/cheatsheat-Linux Privilege Escalation.md",
+    "HTB/Linux-Privilege-Escalation/Intro-Linux Privilege Escalation.md",
+    "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations/assets/Pasted image 20260110231149.png",
+    "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations/assets/Pasted image 20260110225927.png",
+    "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations/assets/Pasted image 20260110231011.png",
+    "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations/assets/Pasted image 20260110230823.png",
+    "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations/assets/Pasted image 20260110230459.png",
+    "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations/assets/Pasted image 20260110230228.png",
+    "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations/assets/Pasted image 20260110230136.png",
+    "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations/assets/Pasted image 20260110225644.png",
+    "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations/assets/Pasted image 20260110225810.png",
+    "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations/assets",
+    "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations/01-Recensement de l'environnement.md",
+    "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations/02-Énumération des services et des éléments internes de Linux.md",
+    "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations/01.1-Writeup du chapitre 01-Recensement de l'environnement.md",
+    "HTB/Linux-Privilege-Escalation/01-Introduction à l'élévation de privilèges sous Linux/01-Introduction à l'élévation de privilèges sous Linux.md",
+    "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations",
+    "HTB/Linux-Privilege-Escalation/01-Introduction à l'élévation de privilèges sous Linux",
+    "HTB/Linux-Privilege-Escalation",
+    "HTB",
     "Tryhackme/Exploitations Basics/02-Introduction Metasploit.md",
     "Tryhackme/Networking/01-Networking Concepts.md",
-    "OpenClassroom/assets/Pasted image 20251018123758.png",
     "Tryhackme/Exploitations Basics/01-Moniker Link (CVE-2024-21413).md",
     "Notes.md",
     "To-do.md",
-    "conflict-files-obsidian-git.md",
     "Tryhackme/Exploitations Basics",
     "Sans titre",
     "Tryhackme/Networking",
@@ -252,9 +272,7 @@
     "Ynov/M1-Securite-dans-les-projets/01-Cours.md",
     "Ynov/M1-Securite-dans-les-projets",
     "Tryhackme/Build-Your-Cyber-Security-Career",
-    "Tryhackme",
     "Formation-GRC-avec-Gemini/ISO-27001-clause-4.md",
-    "Formation-GRC-avec-Gemini",
     "gfcgfxgfb.md",
     "test gggg.md",
     "2025-12-06.md",
@@ -262,24 +280,6 @@
     "October 20th 2025.md",
     "Ynov/M1-Culture d'entreprise/01-Culture en entreprise.md",
     "test git/gggggggggggggggg.md",
-    "test git",
-    "OpenClassroom/Concevez votre réseau TCP IP/Partie 1-Créez l’architecture physique de votre réseau/02-Découvrez l’outil de simulation Packet Tracer.md",
-    "OpenClassroom/Concevez votre réseau TCP IP/Liste des résumés.md",
-    "OpenClassroom/Concevez votre réseau TCP IP/Partie 2-Configurez votre réseau pour assurer la communication/01-Identifiez votre machine au sein d’un réseau local.md",
-    "Ynov/M1-Culture d'entreprise/02-Culture en entreprise.md",
-    "OpenClassroom/Concevez votre réseau TCP IP/Partie 3-Optimisez votre réseau en ajoutant des services/01-Automatisez l’attribution d’adresses IP grâce au DHCP.md",
-    "OpenClassroom/Concevez votre réseau TCP IP/Partie 2-Configurez votre réseau pour assurer la communication/05-Indiquez une passerelle par défaut aux équipements terminaux.md",
-    "OpenClassroom/Concevez votre réseau TCP IP/Partie 3-Optimisez votre réseau en ajoutant des services/03-Déployez un serveur DNS sous Packet Tracer.md",
-    "Ynov/M1-Culture d'entreprise",
-    "Ynov",
-    "OpenClassroom/assets/Pasted image 20251018183756.png",
-    "OpenClassroom/assets/Pasted image 20251018174040.png",
-    "OpenClassroom/assets/Pasted image 20251018174004.png",
-    "OpenClassroom/assets/Pasted image 20251018141249.png",
-    "OpenClassroom/assets/Pasted image 20251018140851.png",
-    "OpenClassroom/assets/Pasted image 20251018133528.png",
-    "OpenClassroom/assets/Pasted image 20251018133153.png",
-    "OpenClassroom/assets/Pasted image 20251018132919.png",
-    "OpenClassroom/assets/Pasted image 20251018125212.png"
+    "OpenClassroom/Concevez votre réseau TCP IP/Partie 1-Créez l’architecture physique de votre réseau/02-Découvrez l’outil de simulation Packet Tracer.md"
   ]
 }
