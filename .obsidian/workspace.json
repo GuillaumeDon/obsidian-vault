@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "avoid/to-do.md",
+                "file": "Tryhackme/Exploitations Basics/02-Introduction Metasploit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "to-do"
+              "title": "02-Introduction Metasploit"
             }
           }
         ],
@@ -267,9 +267,9 @@
   },
   "active": "9131236032c951ce",
   "lastOpenFiles": [
+    "avoid/Planning.md",
     "Notes.md",
     "to-do.md",
-    "avoid/to-do.md",
     "avoid",
     "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations/01.1-Writeup du chapitre 01-Recensement de l'environnement.md",
     "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations/assets",
