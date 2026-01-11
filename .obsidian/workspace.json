@@ -53,14 +53,12 @@
             "id": "74d8ab743453f132",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Tryhackme/Exploitations Basics/02-Introduction Metasploit.md",
-                "mode": "source",
-                "source": false
+                "file": "OpenClassroom/assets/Pasted image 20251018123758.png"
               },
-              "icon": "lucide-file",
-              "title": "02-Introduction Metasploit"
+              "icon": "lucide-image",
+              "title": "Pasted image 20251018123758"
             }
           }
         ],
@@ -236,12 +234,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "74d8ab743453f132",
+  "active": "957ccd4494e1b776",
   "lastOpenFiles": [
-    "Tryhackme/Networking/01-Networking Concepts.md",
-    "Tutos Obsidian/Pasted image 20251018123758.png",
-    "Tryhackme/Exploitations Basics/01-Moniker Link (CVE-2024-21413).md",
     "Tryhackme/Exploitations Basics/02-Introduction Metasploit.md",
+    "Tryhackme/Networking/01-Networking Concepts.md",
+    "OpenClassroom/assets/Pasted image 20251018123758.png",
+    "Tryhackme/Exploitations Basics/01-Moniker Link (CVE-2024-21413).md",
     "Notes.md",
     "To-do.md",
     "conflict-files-obsidian-git.md",
