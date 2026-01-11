@@ -53,12 +53,14 @@
             "id": "74d8ab743453f132",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "OpenClassroom/assets/Pasted image 20251018123758.png"
+                "file": "Notes.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251018123758"
+              "icon": "lucide-file",
+              "title": "Notes"
             }
           }
         ],
@@ -237,6 +239,8 @@
   "active": "74d8ab743453f132",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
+    "Notes.md",
+    "Tryhackme/Exploitations Basics/02-Introduction Metasploit.md",
     "OpenClassroom/assets/Pasted image 20251018123758.png",
     "HTB/Linux-Privilege-Escalation/cheatsheat-Linux Privilege Escalation.md",
     "HTB/Linux-Privilege-Escalation/Intro-Linux Privilege Escalation.md",
@@ -258,10 +262,8 @@
     "HTB/Linux-Privilege-Escalation/01-Introduction à l'élévation de privilèges sous Linux",
     "HTB/Linux-Privilege-Escalation",
     "HTB",
-    "Tryhackme/Exploitations Basics/02-Introduction Metasploit.md",
     "Tryhackme/Networking/01-Networking Concepts.md",
     "Tryhackme/Exploitations Basics/01-Moniker Link (CVE-2024-21413).md",
-    "Notes.md",
     "To-do.md",
     "Tryhackme/Exploitations Basics",
     "Sans titre",
