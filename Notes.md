@@ -46,4 +46,3 @@ Face aux risques géopolitiques, de plus en plus d’entreprises européennes ch
 Pour terminer cette série de tendances technologiques, intéressons-nous à une promesse récurrente dans l’industrie IT : la...
 
 
-test
