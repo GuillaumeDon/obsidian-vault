@@ -44,3 +44,5 @@ Face aux risques géopolitiques, de plus en plus d’entreprises européennes ch
 ### [Le mirage des robots humanoïdes](https://www.lemondeinformatique.fr/les-dossiers/lire-le-mirage-des-robots-humanoides-1668.html)
 
 Pour terminer cette série de tendances technologiques, intéressons-nous à une promesse récurrente dans l’industrie IT : la...
+
+
