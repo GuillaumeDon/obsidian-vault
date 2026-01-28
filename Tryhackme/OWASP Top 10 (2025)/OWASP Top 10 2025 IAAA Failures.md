@@ -112,3 +112,47 @@ Cette catégorie regroupe tout ce qui permet à un attaquant de se faire passer 
 
 ## 🧠 Rappel Mémoire
 "L'authentification, c'est la porte d'entrée. Si la serrure est cassée (Logic Flaw) ou si la clé est sous le paillasson (Weak Password), tout le monde rentre."
+
+# 📜 A09: Logging & Alerting Failures
+#TryHackMe #OWASP #Logs #Accountability #Forensics
+
+## 1. ⚙️ The Concept
+Cette vulnérabilité survient quand une application ne note pas (ou mal) les événements de sécurité critiques.
+* **Ce qui doit être loggé :** Échecs d'authentification, accès aux données sensibles, changements de privilèges, erreurs systèmes.
+* **Le Risque :** Si un attaquant fait du brute-force pendant 3 jours et que personne n'est alerté, ou s'il vole la base de données sans laisser de trace dans les logs, l'attaque est "invisible". On ne peut ni la détecter en temps réel, ni enquêter après coup.
+
+## 2. 🕵️ Forensic Analysis (La méthode)
+Pour enquêter sur des logs, on cherche des **motifs (Patterns)** :
+* **Brute-Force :** Une avalanche de "Login Failed" (Erreur 401/403) venant de la même IP en peu de temps.
+* **Account Takeover :** Après 50 échecs, soudain un "Login Success" (Code 200) pour cette même IP malveillante. C'est le moment précis où le mot de passe a craqué.
+* **Post-Exploitation :** Que fait cette IP juste après s'être connectée ? (ex: accès à `/admin`, `/delete-user`).
+
+---
+
+## 🌍 Vision GRC (Compliance & GDPR)
+* **RGPD (GDPR) Art. 33 :** En cas de violation de données, l'entreprise doit notifier la CNIL sous 72h.
+    * *Problème :* Si tes logs sont vides (A09), tu ne sauras même pas que tu as été piraté. Tu seras donc en défaut de notification = Amende potentielle de 2% à 4% du CA mondial.
+* **Audit Trail :** Un auditeur vérifie la "rétention des logs". Sont-ils gardés 6 mois ? 1 an ? Sont-ils stockés sur un serveur sécurisé (pour que le hacker ne puisse pas les effacer en sortant) ?
+
+# 🛡️ IAAA Security Checklist (Summary)
+#TryHackMe #OWASP #Remediation #GRC
+
+## 1. 📋 Summary of Controls
+Pour sécuriser le modèle IAAA, voici les contrôles techniques indispensables :
+
+* **A01 (Access Control) :**
+    * *Règle :* "Enforce server-side checks on **every** request."
+    * *Traduction :* Ne jamais faire confiance au navigateur du client. Chaque fois qu'une donnée est demandée, le serveur doit revérifier : "Est-ce que cet utilisateur a le droit de voir ça ?"
+* **A07 (Authentication) :**
+    * *Règle :* "Rate-limit/lock out brute force."
+    * *Traduction :* Bloquer le compte après 5 tentatives échouées. Utiliser des indexes uniques pour éviter les doublons de noms (le coup du ` aDmIN `).
+* **A09 (Logging) :**
+    * *Règle :* "Centralize logs off-host with retention."
+    * *Traduction :* Envoyer les logs sur un serveur dédié (SIEM) pour qu'un attaquant ne puisse pas les effacer localement après son intrusion.
+
+## 2. 🌍 Vision GRC (Audit Conclusion)
+* **La phrase magique :** "L'implémentation IAAA doit être sécurisée de bout en bout."
+* Si tu audites une application, tu vérifieras ces 3 points précis. Si l'un manque, c'est une non-conformité majeure.
+
+## 🧠 Rappel Mémoire
+"Vérifie **chaque** requête (A01), **Bloque** les brutes (A07), **Sauvegarde** les preuves ailleurs (A09)."
