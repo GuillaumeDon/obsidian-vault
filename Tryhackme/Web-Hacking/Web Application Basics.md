@@ -71,3 +71,95 @@ Une URL est une adresse précise. Voici ses organes vitaux :
     * Le cours mentionne explicitement cette attaque dans la section *Host/Domain*.
     * *Concept :* Acheter `goggle.com` au lieu de `google.com` pour piéger les utilisateurs qui font une faute de frappe.
     * *Audit :* Les entreprises doivent surveiller et acheter les domaines proches du leur pour éviter ce phishing.
+
+
+# 📨 HTTP Messages (Request vs Response)
+#TryHackMe #HTTP #Packets #Structure #GRC
+
+## 1. 🗣️ The Dialogue Types
+Le web n'est qu'une discussion constante entre deux acteurs :
+
+* **HTTP Requests (La Question) :**
+    * Envoyées par **l'Utilisateur** (Client) pour déclencher une action.
+    * *Exemple :* "Je veux voir la page d'accueil."
+* **HTTP Responses (La Réponse) :**
+    * Envoyées par le **Serveur** après avoir traité la demande.
+    * *Exemple :* "Ok, voici le code HTML de la page."
+
+## 2. 🦴 Anatomy of a Message
+Chaque message (qu'il soit Requête ou Réponse) suit strictement la même structure en 4 parties :
+
+1.  **Start Line :** La première ligne. Elle dit "Bonjour, je veux ça" (Requête) ou "Bonjour, voici le résultat" (Réponse).
+2.  **Headers :** Les métadonnées. Des paires "Clé: Valeur" qui donnent des infos techniques (langue, type de navigateur, cookies).
+3.  **Empty Line :** ⚠️ **Crucial.** C'est une ligne vide qui sert de séparateur. Elle dit "Fin des en-têtes, le contenu commence maintenant".
+4.  **Body :** Le corps du message. C'est la donnée réelle (le code HTML de la page pour une réponse, ou tes identifiants de login pour une requête).
+
+---
+
+## 🌍 Vision GRC (Deep Inspection)
+* **Data Leakage :**
+    * Un auditeur vérifie souvent le **Body** des réponses HTTP. Parfois, un serveur mal configuré renvoie des données sensibles (erreurs SQL, versions de logiciel) dans le corps du message, même si la page affichée à l'écran semble normale.
+* **WAF Bypass :**
+    * Certaines attaques jouent sur l'**Empty Line** ou des Headers mal formés pour tromper les pare-feux. Comprendre cette structure est vital pour l'analyse forensique.
+
+
+# 🗣️ HTTP Requests: Methods & Versions (Detailed)
+#TryHackMe #HTTP #Verbs #RFC #GRC
+
+## 1. 📝 The Request Line
+C'est la première ligne d'une requête HTTP. Elle définit l'intention du client.
+Elle se décompose strictement en 3 parties :
+1.  **HTTP Method :** Le verbe d'action (ex: `GET`).
+2.  **Path :** L'emplacement de la ressource sur le serveur (ex: `/user/login.html`). Si aucune ressource n'est précisée, c'est souvent la racine `/`.
+3.  **HTTP Version :** La version du protocole utilisée (ex: `HTTP/1.1`).
+
+## 2. ⚡ The 9 HTTP Methods (Verbs)
+Voici la liste exhaustive des méthodes standard et leur usage précis :
+
+### 🔹 Les Fondamentaux
+* **GET :** "Récupérer".
+    * Utilisé pour demander une ressource.
+    * *Sécurité :* Ne doit jamais modifier les données sur le serveur (lecture seule).
+* **POST :** "Envoyer".
+    * Utilisé pour soumettre des données (formulaires, logins, uploads) pour traitement par le serveur.
+    * *Note :* Crée souvent une nouvelle ressource ou déclenche une action.
+
+### 🔹 La Gestion de Ressources
+* **PUT :** "Remplacer / Créer".
+    * Met à jour une ressource existante en remplaçant son contenu complet. Si elle n'existe pas, il la crée.
+* **PATCH :** "Modifier partiellement".
+    * Applique des modifications partielles à une ressource (ex: changer juste l'email d'un utilisateur, pas tout son profil).
+* **DELETE :** "Supprimer".
+    * Retire la ressource spécifiée du serveur.
+
+### 🔹 Les Utilitaires & Techniques
+* **HEAD :** "En-têtes seulement".
+    * Identique à GET, mais le serveur renvoie uniquement les en-têtes (Headers), pas le corps (Body).
+    * *Usage :* Vérifier si une page existe ou sa date de modif sans télécharger le gros fichier.
+* **OPTIONS :** "Disponibilité".
+    * Demande au serveur quelles méthodes (GET, POST, etc.) sont autorisées pour une URL donnée.
+    * *Usage :* Reconnaissance technique (CORS).
+* **TRACE :** "Écho".
+    * Le serveur renvoie au client la requête exacte qu'il a reçue.
+    * *Usage :* Debugging (voir si des proxys modifient la requête en route).
+* **CONNECT :** "Tunnel".
+    * Transforme la connexion en tunnel transparent (souvent pour le SSL/HTTPS via un proxy).
+
+## 3. 🚀 HTTP Versions Evolution
+L'évolution dicte la performance et la sécurité :
+* **HTTP/1.0 :** Ancienne version. Chaque fichier (image, css) demande une nouvelle connexion TCP (lent).
+* **HTTP/1.1 :** Le standard actuel.
+    * Introduit les connexions persistantes ("Keep-Alive") : on garde le tuyau ouvert pour charger plusieurs fichiers.
+* **HTTP/2 :** La version moderne (2015).
+    * **Multiplexing :** Le gros changement. On envoie plusieurs requêtes *en même temps* sur une seule connexion TCP.
+    * **Binary :** Plus efficace à parser pour les machines que le texte.
+
+---
+
+## 🌍 Vision GRC (Audit & Risques)
+* **Unnecessary Methods :**
+    * Un serveur web bien configuré ne doit exposer que le strict nécessaire (souvent GET, POST, HEAD).
+    * *Risque Critique :* Laisser `PUT` ou `DELETE` ouverts publiquement permet à n'importe qui de défigurer le site.
+    * *Risque TRACE :* Peut être utilisé pour voler des cookies HttpOnly (attaque Cross-Site Tracing - XST).
+* **Conformité :**
+    * L'utilisation de **HTTP/2** ou **HTTP/3** est recommandée pour la performance (SEO) mais aussi pour certaines améliorations de sécurité (chiffrement souvent forcé).
