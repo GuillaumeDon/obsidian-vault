@@ -21,28 +21,53 @@ Ce module couvre les éléments vitaux qui permettent au web de fonctionner. Voi
 ## 🧠 Rappel Mémoire
 "Le Web n'est qu'un échange de lettres (Requêtes/Réponses) écrites dans une langue précise (HTTP)."
 
-# 🏗️ Web Architecture: Anatomy
-#TryHackMe #WebFundamentals #FrontEnd #BackEnd #GRC
+# 🪐 Web Architecture: The Planet Analogy
+#TryHackMe #WebFundamentals #Structure #Style #Interactive
 
-## 1. 🎨 The Front-End (Client-Side)
-C'est ce qui s'exécute dans **ton** navigateur (Chrome, Firefox). C'est la partie visible de l'iceberg.
-L'image utilise l'analogie du corps humain :
-* **HTML (Structure) :** Le squelette 🦴. Il définit l'organisation de la page (titres, paragraphes, images). Sans lui, la page n'existe pas.
-* **CSS (Style) :** La peau et les vêtements 👕. Il rend la page jolie (couleurs, polices, mise en page).
-* **JavaScript (Interactivity) :** Les muscles 🦾. Il rend la page dynamique (boutons qui bougent, pop-ups, calculs immédiats).
+## 1. 🎨 The Front-End (Visible Planet)
+Le cours compare l'application web à une **planète** pour expliquer ses couches visibles :
 
-## 2. ⚙️ The Back-End (Server-Side)
-C'est ce qui s'exécute sur l'ordinateur de l'entreprise (le Serveur). C'est le cerveau et la mémoire.
-* **Web Server :** L'infrastructure qui reçoit ta demande et te renvoie la page.
-* **Database :** La mémoire 🧠. C'est là que sont stockés les mots de passe, les produits, les numéros de carte bleue.
-* **WAF (Web Application Firewall) :** Le bouclier 🛡️. Un logiciel spécial placé devant le serveur pour bloquer les attaques courantes (comme les injections SQL) avant qu'elles ne touchent le code.
+* **HTML (Structure) :** C'est la forme de la planète.
+    * Il définit la structure brute. Sans lui, rien n'existe.
+* **CSS (Looking / Style) :** C'est la végétation, les océans, l'atmosphère.
+    * Il rend la planète (le site) agréable à regarder. Sans lui, c'est juste un rocher brut.
+* **JavaScript (Interactivity) :** C'est la vie, le mouvement, la rotation.
+    * Il permet l'interaction. Sans lui, la planète est statique (figée).
+
+## 2. ⚙️ The Back-End (Infrastructure)
+C'est ce qui soutient la planète dans l'espace :
+
+* **Web Server :** L'infrastructure qui fait tourner l'application.
+* **Database :** Le stockage des ressources (minerais, données).
+* **WAF (Web Application Firewall) :** Le bouclier atmosphérique 🛡️.
+    * Il protège l'application contre le trafic malveillant. C'est un composant indispensable pour la sécurité.
 
 ---
+## 🌍 Vision GRC
+* **WAF & Conformité :**
+    * Le **WAF** est explicitement cité comme "indispensable to ensuring the security". Dans un audit, l'absence de WAF sur une application critique est souvent une "Non-Conformité".
 
-## 🌍 Vision GRC (The Trust Boundary)
-* **Client-Side Validation is NOT Security:**
-    * *Concept Clé :* Un développeur peut mettre une vérification en JavaScript : "Le champ Prix ne peut pas être négatif".
-    * *L'Attaque :* Comme le JavaScript tourne chez toi, tu peux le modifier. Un hacker désactivera le JS pour envoyer "Prix = -10€".
-    * *Règle d'Audit :* "Ne jamais faire confiance aux données venant du client." Toutes les vérifications doivent être refaites côté Serveur (Back-End).
-* **WAF Compliance:**
-    * Pour la norme **PCI-DSS** (paiement par carte), l'installation d'un **WAF** est souvent obligatoire pour protéger les données bancaires.
+
+# 🔗 URL Anatomy (Decoding Addresses)
+#TryHackMe #URL #Typosquatting #GRC
+
+## 1. 🧬 The Components
+Une URL est une adresse précise. Voici ses organes vitaux :
+
+* **Scheme (Protocole) :** Le langage utilisé.
+    * `HTTP` (Non sécurisé, Port 80).
+    * `HTTPS` (Sécurisé/Chiffré, Port 443).
+* **User :** (Rare aujourd'hui) Login intégré dans l'URL (`user:password@site.com`). Risqué car les identifiants sont en clair.
+* **Host/Domain :** Le nom du serveur (ex: `tryhackme.com`).
+* **Port :** La porte d'entrée (souvent invisible car implicite).
+* **Path :** Le chemin vers le fichier (ex: `/view-room`).
+* **Query String :** Les paramètres après le `?`.
+    * *Utilité :* Passer des infos comme des termes de recherche.
+    * *Risque :* Zone critique pour les injections SQL.
+* **Fragment :** L'ancre après le `#`. Sert à scroller à un endroit précis de la page. C'est purement "Client-Side".
+
+## 2. 🌍 Vision GRC (Threat Focus)
+* **Typosquatting :**
+    * Le cours mentionne explicitement cette attaque dans la section *Host/Domain*.
+    * *Concept :* Acheter `goggle.com` au lieu de `google.com` pour piéger les utilisateurs qui font une faute de frappe.
+    * *Audit :* Les entreprises doivent surveiller et acheter les domaines proches du leur pour éviter ce phishing.
