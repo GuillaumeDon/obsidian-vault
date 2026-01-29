@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tryhackme/OWASP Top 10 (2025)/OWASP Top 10 2025 IAAA Failures.md",
+                "file": "Tryhackme/Web-Hacking/Web Application Basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OWASP Top 10 2025 IAAA Failures"
+              "title": "Web Application Basics"
             }
           }
         ],
@@ -110,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#OWASP",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -131,8 +131,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -252,10 +251,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "296d1ec14e4207f7",
+  "active": "54de9d2ab487dbb8",
   "lastOpenFiles": [
-    "Notes.md",
     "Tryhackme/OWASP Top 10 (2025)/OWASP Top 10 2025 IAAA Failures.md",
+    "Tryhackme/Web-Hacking/Web Application Basics.md",
+    "Tryhackme/Web-Hacking",
+    "Notes.md",
     "Tryhackme/OWASP Top 10 (2025)",
     "Ynov/M1-Securite-dans-les-OS/Module_CYBOS_OXYHACK-25-26.pdf",
     "Ynov/M1-Securite-dans-les-OS/02-Notes de cours du 16 01 26.md",
@@ -288,7 +289,6 @@
     "Tryhackme/Exploitations Basics/01-Moniker Link (CVE-2024-21413).md",
     "To-do.md",
     "Tryhackme/Exploitations Basics",
-    "Tryhackme/Networking",
     "Tryhackme/Build-Your-Cyber-Security-Career/03-Training Impact on Teams.md",
     "Tryhackme/Build-Your-Cyber-Security-Career/01-Security Principles.md",
     "OpenClassroom/Concevez votre réseau TCP IP/Partie 1-Créez l’architecture physique de votre réseau/01-Découvrez l’organisation d’un réseau.md",
@@ -298,7 +298,6 @@
     "test gggg.md",
     "2025-12-06.md",
     "2020-10-08.md",
-    "October 20th 2025.md",
-    "Ynov/M1-Culture d'entreprise/01-Culture en entreprise.md"
+    "October 20th 2025.md"
   ]
 }
