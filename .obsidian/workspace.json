@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tryhackme/OWASP Top 10 (2025)/OWASP Top 10 2025 IAAA Failures.md",
+                "file": "Tryhackme/Web-Hacking/01-Web Application Basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OWASP Top 10 2025 IAAA Failures"
+              "title": "01-Web Application Basics"
             }
           }
         ],
@@ -209,10 +209,11 @@
   },
   "active": "c54a73d6e49dff6d",
   "lastOpenFiles": [
-    "Tryhackme/Web-Hacking/Web Application Basics.md",
+    "Tryhackme/OWASP Top 10 (2025)/02-OWASP Top 10 2025 Application Design Flaws.md",
+    "Tryhackme/OWASP Top 10 (2025)/01-OWASP Top 10 2025 IAAA Failures.md",
+    "Tryhackme/Web-Hacking/01-Web Application Basics.md",
     "Notes.md",
     "Tryhackme/Web-Hacking",
-    "Tryhackme/OWASP Top 10 (2025)/OWASP Top 10 2025 IAAA Failures.md",
     "Tryhackme/OWASP Top 10 (2025)",
     "Ynov/M1-Securite-dans-les-OS/02-Notes de cours du 16 01 26.md",
     "Ynov/M1-Securite-dans-les-OS/Module_CYBOS_OXYHACK-25-26.pdf",
@@ -253,7 +254,6 @@
     "Networking.md",
     "Tryhackme/Build-Your-Cyber-Security-Career/03-Training Impact on Teams.md",
     "Formation-GRC-avec-Gemini/ISO-27001-clause-4.md",
-    "Ynov/M1-Culture d'entreprise/01-Culture en entreprise.md",
-    "Ynov/M1-Securite-dans-les-projets/01-Cours.md"
+    "Ynov/M1-Culture d'entreprise/01-Culture en entreprise.md"
   ]
 }
