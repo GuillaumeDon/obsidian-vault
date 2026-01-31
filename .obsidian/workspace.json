@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tryhackme/Web-Hacking/01-Web Application Basics.md",
+                "file": "Tryhackme/OWASP Top 10 (2025)/02-OWASP Top 10 2025 Application Design Flaws.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Web Application Basics"
+              "title": "02-OWASP Top 10 2025 Application Design Flaws"
             }
           }
         ],
@@ -209,9 +209,9 @@
   },
   "active": "c54a73d6e49dff6d",
   "lastOpenFiles": [
+    "Tryhackme/Web-Hacking/01-Web Application Basics.md",
     "Tryhackme/OWASP Top 10 (2025)/02-OWASP Top 10 2025 Application Design Flaws.md",
     "Tryhackme/OWASP Top 10 (2025)/01-OWASP Top 10 2025 IAAA Failures.md",
-    "Tryhackme/Web-Hacking/01-Web Application Basics.md",
     "Notes.md",
     "Tryhackme/Web-Hacking",
     "Tryhackme/OWASP Top 10 (2025)",
