@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tryhackme/Web-Hacking/Web Application Basics.md",
+                "file": "Tryhackme/OWASP Top 10 (2025)/OWASP Top 10 2025 IAAA Failures.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Web Application Basics"
+              "title": "OWASP Top 10 2025 IAAA Failures"
             }
           }
         ],
@@ -209,8 +209,8 @@
   },
   "active": "c54a73d6e49dff6d",
   "lastOpenFiles": [
-    "Notes.md",
     "Tryhackme/Web-Hacking/Web Application Basics.md",
+    "Notes.md",
     "Tryhackme/Web-Hacking",
     "Tryhackme/OWASP Top 10 (2025)/OWASP Top 10 2025 IAAA Failures.md",
     "Tryhackme/OWASP Top 10 (2025)",
