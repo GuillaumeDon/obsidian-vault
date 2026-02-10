@@ -237,14 +237,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "437bac9b2837ec68",
+  "active": "957ccd4494e1b776",
   "lastOpenFiles": [
+    "Sans titre",
+    "Tryhackme/Web-Hacking/Web Application Basics.md",
     "Tryhackme/Web-Hacking/01-Web Application Basics.md",
     "Tryhackme/OWASP Top 10 (2025)/03-OWASP Top 10 2025 Insecure Data Handling.md",
     "Tryhackme/OWASP Top 10 (2025)/02-OWASP Top 10 2025 Application Design Flaws.md",
     "Tryhackme/OWASP Top 10 (2025)/01-OWASP Top 10 2025 IAAA Failures.md",
     "Tryhackme/OWASP Top 10 (2025)/OWASP Top 10 2025 IAAA Failures.md",
-    "Tryhackme/Web-Hacking/Web Application Basics.md",
     "Tryhackme/Web-Hacking",
     "Notes.md",
     "Tryhackme/OWASP Top 10 (2025)",
@@ -283,7 +284,6 @@
     "Tryhackme/Build-Your-Cyber-Security-Career/01-Security Principles.md",
     "OpenClassroom/Concevez votre réseau TCP IP/Partie 1-Créez l’architecture physique de votre réseau/01-Découvrez l’organisation d’un réseau.md",
     "Ynov/M1-Securite-dans-les-projets/01-Cours.md",
-    "Formation-GRC-avec-Gemini/ISO-27001-clause-4.md",
-    "gfcgfxgfb.md"
+    "Formation-GRC-avec-Gemini/ISO-27001-clause-4.md"
   ]
 }
