@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CompTIA Security+ (SY0-701) Bootcamp/Section 1 Introduction.md",
+                "file": "CompTIA Security+ (SY0-701) Bootcamp/Section 2 Fundamentals of cybersecurity.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Section 1 Introduction"
+              "title": "Section 2 Fundamentals of cybersecurity"
             }
           }
         ],
@@ -239,8 +239,9 @@
   },
   "active": "74d8ab743453f132",
   "lastOpenFiles": [
-    "Notes.md",
     "CompTIA Security+ (SY0-701) Bootcamp/Section 1 Introduction.md",
+    "CompTIA Security+ (SY0-701) Bootcamp/Section 2 Fundamentals of cybersecurity.md",
+    "Notes.md",
     "CompTIA Security+ (SY0-701) Bootcamp",
     "Tryhackme/Web-Hacking/Web Application Basics.md",
     "Tryhackme/Web-Hacking/01-Web Application Basics.md",
@@ -283,7 +284,6 @@
     "Tryhackme/Build-Your-Cyber-Security-Career/03-Training Impact on Teams.md",
     "Tryhackme/Build-Your-Cyber-Security-Career/01-Security Principles.md",
     "OpenClassroom/Concevez votre réseau TCP IP/Partie 1-Créez l’architecture physique de votre réseau/01-Découvrez l’organisation d’un réseau.md",
-    "Ynov/M1-Securite-dans-les-projets/01-Cours.md",
-    "Formation-GRC-avec-Gemini/ISO-27001-clause-4.md"
+    "Ynov/M1-Securite-dans-les-projets/01-Cours.md"
   ]
 }
