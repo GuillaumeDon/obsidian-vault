@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tryhackme/OWASP Top 10 (2025)/03-OWASP Top 10 2025 Insecure Data Handling.md",
+                "file": "CompTIA Security+ (SY0-701) Bootcamp/Section 2 Fundamentals of cybersecurity.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-OWASP Top 10 2025 Insecure Data Handling"
+              "title": "Section 2 Fundamentals of cybersecurity"
             }
           }
         ],
@@ -207,13 +207,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "437bac9b2837ec68",
+  "active": "c54a73d6e49dff6d",
   "lastOpenFiles": [
+    "Tryhackme/OWASP Top 10 (2025)/03-OWASP Top 10 2025 Insecure Data Handling.md",
     "CompTIA Security+ (SY0-701) Bootcamp/Section 2 Fundamentals of cybersecurity.md",
     "CompTIA Security+ (SY0-701) Bootcamp/Section 1 Introduction.md",
     "CompTIA Security+ (SY0-701) Bootcamp",
     "Tryhackme/OWASP Top 10 (2025)/02-OWASP Top 10 2025 Application Design Flaws.md",
-    "Tryhackme/OWASP Top 10 (2025)/03-OWASP Top 10 2025 Insecure Data Handling.md",
     "Tryhackme/Web-Hacking/01-Web Application Basics.md",
     "Tryhackme/OWASP Top 10 (2025)/01-OWASP Top 10 2025 IAAA Failures.md",
     "Notes.md",

@@ -116,3 +116,110 @@ This section establishes the bedrock of cybersecurity, exploring the inherent te
 3. **Accounting (Failed):** Because logs were disabled, there is no record of the user's activity. The company lacks _Non-Repudiation_ evidence.
     
     </details>
+
+
+## tags: [ #SY0-701, #SecurityPlus, #RiskManagement, #Threats, #Vulnerabilities ] date: 2026-02-10 topic: Threats, Vulnerabilities, and Risk
+
+# 🛡️ Threats and Vulnerabilities
+
+## 1. Executive Summary
+
+This lesson defines the fundamental components of risk management. It distinguishes between **Threats** (external/uncontrollable events) and **Vulnerabilities** (internal/controllable weaknesses). The core principle is that **Risk** exists only where a threat intersects with a vulnerability. Security professionals primarily manage risk by controlling vulnerabilities since threats are often beyond their control.
+
+![Image de cybersecurity risk assessment matrix](https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcS1QpJmgqHR22iZMgxSz2KSS7-Kxoa6lLLqQJ47wL7sSriHN3MNhn8RpT7V-gI6p4Du7RUXlVASsRgGXk-3ZAT0W-FHGl4qKOEL3MOcC03rMnTTDDs)
+
+Shutterstock
+
+Explorer
+
+## 2. Core Concepts
+
+### 🔹 Threat
+
+- **Definition:** Any potential occurrence (malicious or accidental) that could cause harm, loss, damage, or compromise to systems.
+    
+- **Context/Usage:** Threats are generally **external** and **uncontrollable**. You cannot stop an earthquake or a hacker from _trying_, but you can prepare for it.
+    
+- **Examples:** Natural disasters, cyber attacks, data breaches, impatient drivers (in the commute analogy).
+    
+
+### 🔹 Vulnerability
+
+- **Definition:** A weakness in system design, implementation, software, or process.
+    
+- **Context/Usage:** Vulnerabilities are generally **internal** and **controllable**. It is the security professional's job to identify and fix these.
+    
+- **Examples:**
+    
+    - Missing security patches.
+        
+    - Misconfigured firewalls.
+        
+    - Lack of physical security.
+        
+    - "Forgot to get gas" (in the commute analogy).
+        
+
+### 🔹 The Risk Equation
+
+- **Definition:** Risk is the intersection of a Threat and a Vulnerability.
+    
+    - $$Risk = Threat \times Vulnerability$$
+        
+- **Key Principle:**
+    
+    - If there is a Threat but **no** Vulnerability $\rightarrow$ No Risk.
+        
+    - If there is a Vulnerability but **no** Threat $\rightarrow$ No Risk.
+        
+- **Mitigation:** Actions taken to reduce the likelihood or impact of a risk (e.g., waking up an hour early acts as a buffer/mitigation for traffic).
+    
+
+## 3. 🚨 Exam Tips & Pitfalls
+
+- **Control:** Remember that you generally **cannot control threats**, but you **can control vulnerabilities**.
+    
+- **Scenario Analysis:** In exam questions, identify if the problem is a _Flaw_ (Vulnerability) or an _Event_ (Threat).
+    
+    - "Server is unpatched" = Vulnerability.
+        
+    - "Hacker launches DDoS" = Threat.
+        
+    - "Server crashes due to DDoS because it was unpatched" = Risk Realized.
+        
+
+## 4. 🔠 Acronyms List
+
+- _None specifically introduced in this lesson, but standard terms apply._
+    
+
+## 5. 🧠 PBQ Scenario (Risk Identification)
+
+**Scenario:** You are auditing a company's security posture. You find the following:
+
+1. The data center is located in a flood zone.
+    
+2. The servers are placed on the ground floor.
+    
+3. The company has no offsite backups.
+    
+
+**Task:** Map the components to Risk Terminology.
+
+<details>
+
+<summary>Click for Solution</summary>
+
+- **Threat:** Heavy Rain / Flood (External, Uncontrollable).
+    
+- **Vulnerability:**
+    
+    1. Servers on ground floor (Internal weakness).
+        
+    2. Lack of offsite backups (Internal weakness).
+        
+- **Risk:** Loss of data and hardware destruction due to flooding.
+    
+- **Mitigation:** Move servers to a higher floor (Fixing Vulnerability 1) or implement cloud backups (Fixing Vulnerability 2).
+    
+    </details>
