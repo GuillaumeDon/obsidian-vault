@@ -4,37 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "2fb8b1e8a989ef0e",
+        "id": "9017fdc3adeb8a5b",
         "type": "tabs",
         "children": [
           {
-            "id": "bb3d67efce81f49c",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.4"
-            }
-          },
-          {
-            "id": "c54a73d6e49dff6d",
+            "id": "038b2dab6ccd3374",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CompTIA Security+ (SY0-701) Bootcamp/Section 2 Fundamentals of cybersecurity.md",
+                "file": "Tryhackme/Pre Security/01-Introduction to cybersecurity/Offensive Security Intro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Section 2 Fundamentals of cybersecurity"
+              "title": "Offensive Security Intro"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -57,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorateur de fichiers"
+              "title": "Files"
             }
           },
           {
@@ -193,12 +180,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Ouvrir le sélecteur rapide": false,
-      "graph:Ouvrir la vue graphique": false,
-      "canvas:Créer une nouvelle toile": false,
-      "daily-notes:Ouvrir la note quotidienne": false,
-      "templates:Insérer le modèle": false,
-      "command-palette:Ouvrir la palette de commandes": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-kanban:Create new board": false,
@@ -207,10 +194,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c54a73d6e49dff6d",
+  "active": "038b2dab6ccd3374",
   "lastOpenFiles": [
-    "Tryhackme/OWASP Top 10 (2025)/03-OWASP Top 10 2025 Insecure Data Handling.md",
+    "Tryhackme/Pre Security/01-Introduction to cybersecurity/Offensive Security Intro.md",
+    "Notes pour le RNCP.md",
+    "Tryhackme/Networking/01-Networking Concepts.md",
+    "Tryhackme/Pre Security/01-Introduction to cybersecurity",
+    "Tryhackme/Pre Security",
+    "Tryhackme/Build-Your-Cyber-Security-Career/03-Training Impact on Teams.md",
+    "Tryhackme/Build-Your-Cyber-Security-Career/01-Security Principles.md",
     "CompTIA Security+ (SY0-701) Bootcamp/Section 2 Fundamentals of cybersecurity.md",
+    "Tryhackme/OWASP Top 10 (2025)/03-OWASP Top 10 2025 Insecure Data Handling.md",
     "CompTIA Security+ (SY0-701) Bootcamp/Section 1 Introduction.md",
     "CompTIA Security+ (SY0-701) Bootcamp",
     "Tryhackme/OWASP Top 10 (2025)/02-OWASP Top 10 2025 Application Design Flaws.md",
@@ -247,13 +241,6 @@
     "HTB/Linux-Privilege-Escalation/01-Introduction à l'élévation de privilèges sous Linux/01-Introduction à l'élévation de privilèges sous Linux.md",
     "HTB/Linux-Privilege-Escalation/Intro-Linux Privilege Escalation.md",
     "Metasploit  Introduction.md",
-    "Nouveau Texte OpenDocument.odt",
-    "HTB/Linux-Privilege-Escalation/01-Introduction à l'élévation de privilèges sous Linux",
-    "Tryhackme/Build-Your-Cyber-Security-Career/01-Security Principles.md",
-    "Tryhackme/Networking/01-Networking Concepts.md",
-    "Tryhackme/Exploitations Basics/01-Moniker Link (CVE-2024-21413).md",
-    "Moniker Link (CVE-2024-21413).md",
-    "Networking Concepts.md",
-    "Networking.md"
+    "Tryhackme/Exploitations Basics/01-Moniker Link (CVE-2024-21413).md"
   ]
 }
