@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tryhackme/Pre Security/01-Introduction to cybersecurity/02-Defensive Security Intro.md",
+                "file": "Tryhackme/Pre Security/01-Introduction to cybersecurity/01-Offensive Security Intro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Defensive Security Intro"
+              "title": "01-Offensive Security Intro"
             }
           }
         ]
@@ -196,8 +196,8 @@
   },
   "active": "038b2dab6ccd3374",
   "lastOpenFiles": [
-    "Tryhackme/Pre Security/01-Introduction to cybersecurity/01-Offensive Security Intro.md",
     "Tryhackme/Pre Security/01-Introduction to cybersecurity/02-Defensive Security Intro.md",
+    "Tryhackme/Pre Security/01-Introduction to cybersecurity/01-Offensive Security Intro.md",
     "Tryhackme/Pre Security/01-Introduction to cybersecurity/Final resumes.md",
     "Notes pour le RNCP.md",
     "Tryhackme/Networking/01-Networking Concepts.md",
