@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "English/Vocabulary.md",
+                "file": "CompTIA Security+ (SY0-701) Bootcamp/Section 1 Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vocabulary"
+              "title": "Section 1 Introduction"
             }
           }
         ]
@@ -196,8 +196,11 @@
   },
   "active": "038b2dab6ccd3374",
   "lastOpenFiles": [
-    "Untitled.md",
+    "CompTIA Security+ (SY0-701) Bootcamp/Untitled.md",
+    "CompTIA Security+ (SY0-701) Bootcamp/Section 2 Fundamentals of cybersecurity.md",
+    "CompTIA Security+ (SY0-701) Bootcamp/Section 1 Introduction.md",
     "English/Vocabulary.md",
+    "Untitled.md",
     "English",
     "avoid/Planning.md",
     "Tryhackme/Pre Security/01-Introduction to cybersecurity/01-Offensive Security Intro.md",
@@ -209,9 +212,7 @@
     "Tryhackme/Pre Security",
     "Tryhackme/Build-Your-Cyber-Security-Career/03-Training Impact on Teams.md",
     "Tryhackme/Build-Your-Cyber-Security-Career/01-Security Principles.md",
-    "CompTIA Security+ (SY0-701) Bootcamp/Section 2 Fundamentals of cybersecurity.md",
     "Tryhackme/OWASP Top 10 (2025)/03-OWASP Top 10 2025 Insecure Data Handling.md",
-    "CompTIA Security+ (SY0-701) Bootcamp/Section 1 Introduction.md",
     "CompTIA Security+ (SY0-701) Bootcamp",
     "Tryhackme/OWASP Top 10 (2025)/02-OWASP Top 10 2025 Application Design Flaws.md",
     "Tryhackme/Web-Hacking/01-Web Application Basics.md",
@@ -240,7 +241,6 @@
     "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations/assets/Pasted image 20260110230136.png",
     "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations/assets/Pasted image 20260110225927.png",
     "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations/assets/Pasted image 20260110225810.png",
-    "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations/assets/Pasted image 20260110225644.png",
-    "HTB/Linux-Privilege-Escalation/cheatsheat-Linux Privilege Escalation.md"
+    "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations/assets/Pasted image 20260110225644.png"
   ]
 }
