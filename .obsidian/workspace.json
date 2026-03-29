@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298,
-    "collapsed": true
+    "width": 298
   },
   "right": {
     "id": "65f6e81746505f79",
@@ -195,7 +194,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "038b2dab6ccd3374",
+  "active": "437bac9b2837ec68",
   "lastOpenFiles": [
     "CompTIA Security+ (SY0-701) Bootcamp/Section 1 Introduction.md",
     "CompTIA Security+ (SY0-701) Bootcamp/Untitled.md",
