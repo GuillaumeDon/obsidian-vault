@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "English/Vocabulary.md",
+                "file": "Tryhackme/Pre Security/02-Network Fundamentals/01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vocabulary"
+              "title": "01"
             }
           }
         ]
@@ -196,11 +196,14 @@
   },
   "active": "038b2dab6ccd3374",
   "lastOpenFiles": [
+    "Tryhackme/Pre Security/01-Introduction to cybersecurity/01-Offensive Security Intro.md",
+    "Tryhackme/Pre Security/02-Network Fundamentals/01.md",
+    "Tryhackme/Pre Security/02-Network Fundamentals",
+    "Tryhackme/Pre Security/02-Network Fundamentals.md",
     "Tryhackme/Pre Security/01-Introduction to cybersecurity/03-Careers in Cyber.md",
+    "English/Vocabulary.md",
     "Tryhackme/Pre Security/01-Introduction to cybersecurity/Final resumes.md",
     "Tryhackme/Pre Security/01-Introduction to cybersecurity/02-Defensive Security Intro.md",
-    "Tryhackme/Pre Security/01-Introduction to cybersecurity/01-Offensive Security Intro.md",
-    "English/Vocabulary.md",
     "CompTIA Security+ (SY0-701) Bootcamp/Section 2 Fundamentals of cybersecurity.md",
     "CompTIA Security+ (SY0-701) Bootcamp/Section 1 Introduction.md",
     "CompTIA Security+ (SY0-701) Bootcamp/Untitled.md",
@@ -230,9 +233,6 @@
     "Tryhackme/Exploitations Basics/03-Metasploit Exploitation.md",
     "to-do.md",
     "avoid",
-    "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations/01.1-Writeup du chapitre 01-Recensement de l'environnement.md",
-    "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations/assets",
-    "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations/02-Énumération des services et des éléments internes de Linux.md",
     "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations/assets/Pasted image 20260110231149.png",
     "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations/assets/Pasted image 20260110231011.png",
     "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations/assets/Pasted image 20260110230823.png",

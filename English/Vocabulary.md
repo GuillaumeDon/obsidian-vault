@@ -12,5 +12,8 @@ amid = au milieu de
 edge = bord
 
 enact : promulguer, adopter, mettre en oeuvre
-Stackholder : partie prenante
+stackholder : partie prenante
 unfolding : déroulement, évolution
+swift : rapide
+retain : garder, conserver
+thorough : approfondi, complet
