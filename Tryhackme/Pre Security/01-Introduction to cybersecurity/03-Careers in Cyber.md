@@ -78,3 +78,31 @@ The **Security Engineer** focuses on the design, implementation, and maintenance
 #### 🏷️ Keywords & Links
 
 #TryHackMe #SecurityEngineer #SecureDesign #ISO27001 #SecurityPlus701 #[[SecurityByDesign]] #[[VulnerabilityManagement]]
+
+### Task 4: Incident Responder
+
+The **Incident Responder** is the "firefighter" of the cybersecurity world. Their primary goal is to identify and mitigate attacks while they are still unfolding. This role is highly pressurized, requiring rapid assessment and response to breach attempts. Beyond the immediate heat of the moment, they focus on long-term resilience by developing **Incident Response Plans (IRP)** and conducting post-incident reporting to ensure lessons learned are integrated into future defenses.
+
+#### 🛡️ ISO 27001 LI Alignment
+
+- **Concept:** **Annex A 5.24 - Information Security Incident Management Planning and Preparation.**
+    
+- **Implementation:** As a Lead Implementer, you look to the Incident Responder to fulfill the requirements of **Clause 10.1 (Nonconformity and corrective action)**. They are responsible for the technical execution of the Incident Management Policy. You must ensure their "Post-incident reporting" includes a **Root Cause Analysis (RCA)** to satisfy audit requirements and trigger the "Act" phase of the PDCA cycle.
+    
+
+#### 🔐 CompTIA Security+ 701 Focus
+
+- **Exam Objective:** **Domain 5.0: Security Operations.** (Focus on Incident Response procedures and performance metrics).
+    
+- **Key Terminology:** * **MTTD (Mean Time to Detect):** The average time it takes to identify a security threat.
+    
+    - **MTTR (Mean Time to Respond/Recover):** The average time taken to neutralize a threat once detected.
+        
+    - **IRP (Incident Response Plan):** A set of written instructions for responding to a cyberattack.
+        
+    - **Playbook:** A specific technical procedure for a specific type of threat (e.g., Ransomware playbook).
+        
+
+#### 🏷️ Keywords & Links
+
+#TryHackMe #IncidentResponse #MTTD #MTTR #ISO27001 #SecurityPlus701 #[[IncidentManagement]] #[[BusinessContinuity]]

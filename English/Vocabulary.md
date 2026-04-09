@@ -10,3 +10,7 @@ milestone = jalon
 remain = rester
 amid = au milieu de
 edge = bord
+
+enact : promulguer, adopter, mettre en oeuvre
+Stackholder : partie prenante
+unfolding : déroulement, évolution
