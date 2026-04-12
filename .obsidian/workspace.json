@@ -11,14 +11,14 @@
             "id": "038b2dab6ccd3374",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Tryhackme/Pre Security/02-Network Fundamentals/01.md",
-                "bFile": "Tryhackme/Pre Security/02-Network Fundamentals/01.md",
-                "aRef": ""
+                "file": "Tryhackme/Pre Security/02-Network Fundamentals/01-What is networking.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 01"
+              "icon": "lucide-file",
+              "title": "01-What is networking"
             }
           }
         ]
@@ -196,6 +196,7 @@
   },
   "active": "038b2dab6ccd3374",
   "lastOpenFiles": [
+    "Tryhackme/Pre Security/02-Network Fundamentals/01-What is networking.md",
     "Tryhackme/Pre Security/01-Introduction to cybersecurity/01-Offensive Security Intro.md",
     "Tryhackme/Pre Security/02-Network Fundamentals/01.md",
     "Tryhackme/Pre Security/02-Network Fundamentals",
@@ -231,7 +232,6 @@
     "Ynov/M1-Securite-dans-les-OS",
     "Tryhackme/Exploitations Basics/02-Introduction Metasploit.md",
     "Tryhackme/Exploitations Basics/03-Metasploit Exploitation.md",
-    "to-do.md",
     "avoid",
     "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations/assets/Pasted image 20260110231149.png",
     "HTB/Linux-Privilege-Escalation/02-Collecte-d-informations/assets/Pasted image 20260110231011.png",
