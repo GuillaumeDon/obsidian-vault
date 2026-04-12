@@ -16,4 +16,15 @@ stackholder : partie prenante
 unfolding : déroulement, évolution
 swift : rapide
 retain : garder, conserver
+
+
 thorough : approfondi, complet
+deed poll = acte unilatéral
+tackle = s'attaquer à 
+seemingly = apparement
+daunting = intimidant
+
+
+boasts = vante
+Although = bien que
+microchip = puce électronique
