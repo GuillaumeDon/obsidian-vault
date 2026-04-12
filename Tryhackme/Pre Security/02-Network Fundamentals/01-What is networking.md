@@ -74,3 +74,45 @@ This task explores the **Internet** as a "network of networks." It uses an analo
 #### 🏷️ Keywords & Links
 
 #TryHackMe #InternetHistory #NetworkSegregation #ISO27001 #SecurityPlus701 #[[NetworkTopology]] #[[PublicVsPrivate]]
+
+
+## Task 3: Identifying Devices on a Network
+
+This task introduces the fundamental methods used to identify and communicate with devices within a network ecosystem. It focuses on the distinction between logical addressing (**IP Addresses**) and physical addressing (**MAC Addresses**), as well as the difference between private and public network visibility.
+
+### 🌐 IP Addresses (Internet Protocol)
+
+An IP address acts as a logical identifier for a device on a network.
+
+- **IPv4:** The current standard, consisting of four octets (e.g., `192.168.1.1`).
+    
+- **Private vs. Public:** Private IPs are used within local networks (LAN), while Public IPs are unique across the entire Internet.
+    
+- **Dynamic vs. Static:** IPs can change (DHCP) or remain fixed for critical infrastructure.
+    
+
+### 🛠️ MAC Addresses (Media Access Control)
+
+The MAC address is a unique, hardcoded physical identifier assigned to a Network Interface Controller (NIC) by the manufacturer. It is represented in hexadecimal format (e.g., `a4:c3:f0:85:ac:2d`). While IP addresses help route data across networks, MAC addresses are used for communication between devices on the same local segment.
+
+#### 🛡️ ISO 27001 LI Alignment
+
+- **Concept:** Annex A 8.8 (Management of technical vulnerabilities) & Annex A 8.16 (Monitoring activities).
+    
+- **Implementation:** A Lead Implementer ensures that **Asset Management (A.5.9)** includes a registry of MAC addresses and assigned IP ranges. This allows for the identification of unauthorized devices (Rogue Devices) attempting to connect to the ISMS scope.
+    
+
+#### 🔐 CompTIA Security+ 701 Focus
+
+- **Exam Objective:** 3.0 Architecture and Design (3.2 Given a scenario, implement secure network designs).
+    
+- **Key Terminology:** * **IPv4 vs IPv6:** Understanding the exhaustion of IPv4 addresses.
+    
+    - **MAC Filtering:** A layer 2 security measure (though easily bypassed via spoofing).
+        
+    - **RFC 1918:** The standard defining private IP address ranges.
+        
+
+#### 🏷️ Keywords & Links
+
+#TryHackMe #NetworkingBasics #IPAddressing #MACAddress #ISO27001 #SecurityPlus701 #[[AssetManagement]] #[[NetworkSecurity]]

@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#OffensiveSecurity",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -196,8 +196,8 @@
   },
   "active": "038b2dab6ccd3374",
   "lastOpenFiles": [
-    "Tryhackme/Pre Security/02-Network Fundamentals/01-What is networking.md",
     "Tryhackme/Pre Security/01-Introduction to cybersecurity/01-Offensive Security Intro.md",
+    "Tryhackme/Pre Security/02-Network Fundamentals/01-What is networking.md",
     "Tryhackme/Pre Security/02-Network Fundamentals/01.md",
     "Tryhackme/Pre Security/02-Network Fundamentals",
     "Tryhackme/Pre Security/02-Network Fundamentals.md",
