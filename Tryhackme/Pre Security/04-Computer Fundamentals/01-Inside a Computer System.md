@@ -68,3 +68,48 @@ This task breaks down the physical architecture of a computer. Every component h
 #### 🏷️ Keywords & Links
 
 #TryHackMe #HardwareSecurity #CPU #RAM #StorageSecurity #ISO27001 #SecurityPlus701 #[[HardwareHardening]] #[[DataDestruction]]
+
+This task is critical because it explains the **boot process**, which is the very first line of defense (or failure) for any system. In GRC, this is where we ensure the integrity of the system before it even starts.
+
+---
+
+### Task 3: What Happens When You Press the Start Button?
+
+The boot process is a sequence of events that transitions a computer from "off" to a functional state.
+
+1. **Power On:** The PSU sends power to the motherboard.
+    
+2. **Firmware Starts (BIOS/UEFI):** The "Basic Input/Output System" or the modern "Unified Extensible Firmware Interface" initializes.
+    
+3. **POST (Power-On Self-Test):** A diagnostic testing sequence to ensure hardware (RAM, CPU, etc.) is functioning.
+    
+4. **Select Boot Device:** The UEFI/BIOS looks for a storage device (HDD/SSD/USB) containing an Operating System.
+    
+5. **Initiate Bootloader:** A small program (like GRUB or Windows Boot Manager) loads the OS into the RAM.
+    
+
+#### 🛡️ ISO 27001 LI Alignment
+
+- **Concept:** Annex A 8.14 (Protection against malware) & Annex A 8.9 (Configuration management).
+    
+- **Implementation:** An LI must mandate **Secure Boot** (part of UEFI). This ensures that only digitally signed, "trusted" bootloaders can start the machine, preventing **Rootkits** from compromising the system at the hardware level before the antivirus even starts.
+    
+- **Governance:** Hardware configurations should be hardened by disabling booting from unauthorized external devices (like USB sticks) to prevent **Physical Access** attacks.
+    
+
+#### 🔐 CompTIA Security+ 701 Focus
+
+- **Exam Objective:** 3.0 Architecture and Design (3.1 Explain the importance of hardware assurance).
+    
+- **Key Terminology:**
+    
+    - **UEFI vs. BIOS:** UEFI is the modern, more secure replacement that supports larger drives and Secure Boot.
+        
+    - **Secure Boot:** A security standard that ensures a device boots using only software that is trusted by the Original Equipment Manufacturer (OEM).
+        
+    - **Measured Boot:** Recording each component of the boot process to ensure nothing was tampered with (linked to the TPM).
+        
+
+#### 🏷️ Keywords & Links
+
+#TryHackMe #BootProcess #UEFI #BIOS #SecureBoot #POST #ISO27001 #SecurityPlus701 #[[SystemIntegrity]] #[[HardwareHardening]]

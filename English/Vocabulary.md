@@ -32,3 +32,9 @@ spoofed = falsifié
 occurs = se produit
 
 layout = mise en page
+nearly = quasiment
+Throughout = tout au long de
+relatable = avec lequel on peut s'identifier 
+oversight = contrôle
+
+snooping = espionnage
