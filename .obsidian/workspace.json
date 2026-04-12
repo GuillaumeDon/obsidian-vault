@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tryhackme/Pre Security/02-Network Fundamentals/01-What is networking.md",
+                "file": "English/Vocabulary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-What is networking"
+              "title": "Vocabulary"
             }
           }
         ]
@@ -196,8 +196,8 @@
   },
   "active": "038b2dab6ccd3374",
   "lastOpenFiles": [
-    "English/Vocabulary.md",
     "Tryhackme/Pre Security/02-Network Fundamentals/01-What is networking.md",
+    "English/Vocabulary.md",
     "Tryhackme/Pre Security/01-Introduction to cybersecurity/01-Offensive Security Intro.md",
     "Tryhackme/Pre Security/02-Network Fundamentals/01.md",
     "Tryhackme/Pre Security/02-Network Fundamentals",
