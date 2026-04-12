@@ -30,3 +30,5 @@ Although = bien que
 microchip = puce électronique
 spoofed = falsifié
 occurs = se produit
+
+layout = mise en page
