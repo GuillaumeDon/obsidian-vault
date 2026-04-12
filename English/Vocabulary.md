@@ -28,3 +28,5 @@ daunting = intimidant
 boasts = vante
 Although = bien que
 microchip = puce électronique
+spoofed = falsifié
+occurs = se produit

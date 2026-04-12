@@ -116,3 +116,57 @@ The MAC address is a unique, hardcoded physical identifier assigned to a Network
 #### 🏷️ Keywords & Links
 
 #TryHackMe #NetworkingBasics #IPAddressing #MACAddress #ISO27001 #SecurityPlus701 #[[AssetManagement]] #[[NetworkSecurity]]
+
+### Task 4: Ping (ICMP)
+
+The `ping` command is a fundamental diagnostic tool used to test the reachability of a host on an IP network. It operates using the **ICMP (Internet Control Message Protocol)**. When you "ping" a device, you send an **ICMP Echo Request**; if the device is reachable and configured to respond, it sends back an **ICMP Echo Reply**.
+
+This process measures the **RTT (Round-Trip Time)**, providing insights into network latency and stability. High packet loss or high RTT typically indicates network congestion or hardware issues.
+
+#### 🛡️ ISO 27001 LI Alignment
+
+- **Concept:** Annex A 8.16 (Monitoring activities) & Annex A 8.17 (Clock synchronization).
+    
+- **Implementation:** A Lead Implementer views tools like ICMP as basic building blocks for **Availability monitoring**. ICMP is often used by automated monitoring systems (like Zabbix or Nagios) to ensure that critical assets are "up."
+    
+- **Note on Risk:** From a GRC perspective, "Ping" is often restricted or disabled on external firewalls to prevent **Reconnaissance** (mapping the network) or **DoS attacks** (ICMP Flood).
+    
+
+#### 🔐 CompTIA Security+ 701 Focus
+
+- **Exam Objective:** 4.0 Operations and Incident Response (4.1 Given a scenario, use appropriate tools to assess security).
+    
+- **Key Terminology:**
+    
+    - **ICMP (Internet Control Message Protocol):** The protocol used for error reporting and operational information.
+        
+    - **Latency:** The delay before a transfer of data begins following an instruction.
+        
+    - **TTL (Time to Live):** A value that prevents packets from circulating indefinitely (decremented by each router).
+        
+
+#### 🏷️ Keywords & Links
+
+#TryHackMe #ICMP #Ping #NetworkDiagnostics #ISO27001 #SecurityPlus701 #[[Availability]] #[[NetworkMonitoring]]
+
+---
+
+### 📑 Executive Room Summary
+
+- **Core Concepts:** This room provided a foundational overview of how computers communicate. It covered the definition of a network (sharing resources), the infrastructure of the Internet (physical wires and routers), unique identifiers (IP and MAC addresses), and basic connectivity testing via ICMP.
+    
+- **GRC Strategic Impact:** Understanding these basics is critical for defining the **Scope of the ISMS**. You cannot protect or govern what you cannot identify. Proper IP/MAC management is the first step in **Asset Management (A.5.9)** and **Network Security Management (A.8.20)**.
+    
+- **Study Focus:** For **Security+**, focus on the OSI layers (implied here), the difference between MAC (Layer 2) and IP (Layer 3), and the security implications of ICMP. For **ISO 27001**, focus on how these technical identifiers are used for access control and incident monitoring.
+    
+
+### ⌨️ Command Cheat Sheet
+
+|**Command**|**Description / Purpose**|
+|---|---|
+|`ping [IP/URL]`|Tests connectivity to a host and measures latency.|
+|`ping -c [count] [IP]`|(Linux) Sends a specific number of Echo Requests before stopping.|
+
+### 🏷️ Final Tags
+
+#RoomCompleted #Summary #CheatSheet #FullReview #NetworkingBasics
