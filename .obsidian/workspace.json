@@ -11,14 +11,14 @@
             "id": "038b2dab6ccd3374",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Tryhackme/Pre Security/02-Network Fundamentals/01.md",
-                "mode": "source",
-                "source": false
+                "aFile": "Tryhackme/Pre Security/02-Network Fundamentals/01.md",
+                "bFile": "Tryhackme/Pre Security/02-Network Fundamentals/01.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "01"
+              "icon": "diff",
+              "title": "Diff: 01"
             }
           }
         ]
