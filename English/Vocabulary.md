@@ -38,3 +38,4 @@ relatable = avec lequel on peut s'identifier
 oversight = contrôle
 
 snooping = espionnage
+eavesdrop  = écouter aux portes
