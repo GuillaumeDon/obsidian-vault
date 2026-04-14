@@ -44,4 +44,7 @@ evildoer = malfaiteur
 resort = complexe touristique
 
 hence = par conséquent
+thumb = vignette
+tenants = locataires
+kernel = noyau
 
