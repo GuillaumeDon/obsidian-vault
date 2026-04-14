@@ -41,3 +41,4 @@ snooping = espionnage
 eavesdrop  = écouter aux portes
 chalk = craie
 evildoer = malfaiteur
+resort = complexe touristique
