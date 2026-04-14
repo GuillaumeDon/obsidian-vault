@@ -49,3 +49,5 @@ tenants = locataires
 kernel = noyau
 misbehaving = qui se conduit mal
 
+consistently = systématiquement
+overall = dans l'ensemble

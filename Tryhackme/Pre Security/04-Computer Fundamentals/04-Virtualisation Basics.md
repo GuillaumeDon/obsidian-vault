@@ -91,3 +91,73 @@ This task breaks down the technical specifics of **Hypervisors** (Type 1 vs. Typ
 #### 🏷️ Keywords & Links
 
 #TryHackMe #HypervisorTypes #Containers #Docker #ISO27001 #SecurityPlus701 #[[BareMetal]] #[[Containerization]]
+
+### Task 4: Managing Virtual Machines
+
+This task focuses on the **Lifecycle Management** of Virtual Machines. It demonstrates how to interact with a Hypervisor's management console to start, stop, and create new virtual instances. A critical takeaway is the monitoring of hardware usage (CPU, RAM, Storage); it illustrates how the Hypervisor dynamically allocates physical resources to guests and the consequences of **resource exhaustion**.
+
+#### 🛡️ ISO 27001 LI Alignment
+
+- **Concept:** **Annex A 8.6 - Capacity management** & **Annex A 8.15 - Logging**.
+    
+- **Implementation:** An ISO 27001 Lead Implementer must ensure that **Capacity Management** is governed. You don't just "create VMs"; you must monitor the host's physical limits to prevent a Denial of Service (DoS) caused by over-provisioning.
+    
+- **Governance Note:** The ability to "Start/Stop" VMs relates to **Annex A 5.15 - Asset Management**. Every VM created is a new asset that must be inventoried and protected.
+    
+
+#### 🔐 CompTIA Security+ 701 Focus
+
+- **Exam Objective:** **Domain 3.0 Architecture and Design** (3.5 - Explain the security implications of different infrastructure models).
+    
+- **Key Terminology:**
+    
+    - **Resource Exhaustion:** When a VM or Host runs out of CPU/RAM, leading to system crashes.
+        
+    - **Snapshot/Checkpoints:** A "point-in-time" image of a VM, crucial for quick recovery before a risky change (relates to **Resiliency**).
+        
+    - **VM Sprawl:** The uncontrolled growth of virtual machines, leading to security gaps and unpatched systems.
+        
+
+#### 🏷️ Keywords & Links
+
+#TryHackMe #VMManagement #CapacityManagement #ISO27001 #SecurityPlus701 #[[ResourceMonitoring]] #[[VMLifecycle]]
+
+---
+
+### ✍️ Study Tip for the Quiz:
+
+- **What is the state of a virtual machine if it is not running or suspended?** -> **Stopped** (or Power Off).
+    
+- **What is the name of the menu used to manage the resources for a virtual machine?** -> **Settings** (or Configuration).
+    
+- **If a user wants to run multiple virtual machines, what should they check?** -> **Hardware Resources** (CPU/RAM capacity).
+    
+- **What is the name of the tool used to monitor hardware usage in Linux?** -> **htop** (or top).
+    
+
+---
+
+### 📑 Executive Room Summary
+
+- **Core Concepts:** This room defines **Virtualization** as the abstraction layer between physical hardware and logical operating systems. It covers the role of the **Hypervisor** as a resource arbiter and distinguishes between **VMs** (full isolation) and **Containers** (shared kernel efficiency).
+    
+- **GRC Strategic Impact:** Virtualization is the cornerstone of **Cloud Governance**. While it enhances **Availability (A in CIA)** through easy backups and migration, it introduces risks like **VM Escape** and **Resource Exhaustion**. A Lead Implementer must treat the Hypervisor as a "Tier 0" asset.
+    
+- **Study Focus:**
+    
+    - **Security+ 701:** Differences between Type 1/Type 2 Hypervisors and the security benefits of sandboxing.
+        
+    - **ISO 27001 LI:** Capacity management (8.6) and environment segregation (8.31).
+        
+
+### ⌨️ Command Cheat Sheet
+
+|**Tool / Action**|**Purpose**|
+|---|---|
+|`htop`|Linux command to monitor real-time CPU and RAM usage.|
+|`Snapshot`|Saves the current state of a VM for easy reversal.|
+|`Start / Stop`|Managing the operational state of the guest OS.|
+
+### 🏷️ Final Tags
+
+#RoomCompleted #Summary #CheatSheet #FullReview #VirtualizationBasics #GRC_Architect_Notes
