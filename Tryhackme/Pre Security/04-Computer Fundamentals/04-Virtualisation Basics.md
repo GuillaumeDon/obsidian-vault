@@ -161,3 +161,61 @@ This task focuses on the **Lifecycle Management** of Virtual Machines. It demons
 ### 🏷️ Final Tags
 
 #RoomCompleted #Summary #CheatSheet #FullReview #VirtualizationBasics #GRC_Architect_Notes
+
+
+### Task 5: Conclusion & Key Terminology
+
+This final task consolidates the fundamental concepts of virtualization. It highlights how these technologies power the modern internet by offering scalability, cost-efficiency, and a secure way to run isolated applications. It sets the stage for moving into **Cloud Computing**, where these virtualized resources are managed at a global scale.
+
+#### 🛡️ ISO 27001 LI Alignment
+
+- **Concept:** **Annex A 5.37 - Management of technical vulnerabilities** & **Annex A 8.31**.
+    
+- **Implementation:** From a Lead Implementer’s perspective, virtualization is a key control for **Vulnerability Management**. By using **Snapshots** and **Golden Images**, an organization can ensure a standardized, secure baseline is deployed across the enterprise, making the auditing of systems much more efficient.
+    
+- **Governance Note:** The concept of **Portability** allows for better **Disaster Recovery (ISO 22301)** planning, as services can be moved between physical hosts with minimal downtime.
+    
+
+#### 🔐 CompTIA Security+ 701 Focus
+
+- **Exam Objective:** **Domain 3.0 Architecture and Design** (3.2 & 3.5 - Virtualization and Cloud).
+    
+- **Key Terminology:**
+    
+    - **Container Images:** Pre-packed templates used to create containers (crucial for standardized deployment).
+        
+    - **Network Ports:** Digital entry points; vital for understanding how traffic is routed into specific VMs or containers.
+        
+    - **Centralized Management:** The ability to control multiple systems from a single pane of glass, reducing administrative overhead but increasing the need for strong **Access Control**.
+        
+
+#### 🏷️ Keywords & Links
+
+#TryHackMe #CloudFoundations #VirtualizationSummary #ISO27001 #SecurityPlus701 #[[ContainerImages]] #[[Scalability]]
+
+---
+
+### 📑 Executive Room Summary
+
+- **Core Concepts:** The "Virtualisation Basics" room demystifies how a single physical server can be partitioned into multiple independent **Virtual Machines (VMs)** or **Containers**. It explains the role of the **Hypervisor** as the "Building Manager" that governs resource distribution and ensures isolation between guest systems.
+    
+- **GRC Strategic Impact:** Virtualization is a massive driver for **Risk Reduction** and **Operational Efficiency**. It enables strict **Environmental Segregation** (Development vs. Production) and provides the flexibility needed for robust **Business Continuity Plans**. However, it requires a centralized governance model to prevent **VM Sprawl** and manage the security of the shared host.
+    
+- **Study Focus:**
+    
+    - **Security+ 701:** Focus on the distinction between **VMs** (Hardware abstraction) and **Containers** (OS abstraction/shared kernel).
+        
+    - **ISO 27001:** Focus on **Capacity Management (8.6)** and the use of virtualization as a technical control for **Segregation (8.31)**.
+        
+
+### ⌨️ Command Cheat Sheet
+
+|**Concept**|**Strategic Value**|
+|---|---|
+|**Snapshots**|Instant "Roll-back" capability; critical for Change Management.|
+|**Container Images**|Consistency across environments; ensures "it works on my machine" works in production.|
+|**Hypervisor Console**|The "Single Point of Control"; must be protected with MFA and strict RBAC.|
+
+### 🏷️ Final Tags
+
+#RoomCompleted #Summary #CheatSheet #FullReview #VirtualizationBasics #GRC_Architect_Notes #ReadyForCloud
