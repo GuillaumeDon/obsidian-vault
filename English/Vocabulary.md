@@ -47,4 +47,5 @@ hence = par conséquent
 thumb = vignette
 tenants = locataires
 kernel = noyau
+misbehaving = qui se conduit mal
 
