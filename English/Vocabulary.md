@@ -42,3 +42,6 @@ eavesdrop  = écouter aux portes
 chalk = craie
 evildoer = malfaiteur
 resort = complexe touristique
+
+hence = par conséquent
+
