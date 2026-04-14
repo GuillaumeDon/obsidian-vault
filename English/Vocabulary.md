@@ -42,3 +42,7 @@ eavesdrop  = écouter aux portes
 chalk = craie
 evildoer = malfaiteur
 hence = par conséquent
+
+thumb = vignette
+tenants = locataires
+kernel = noyau
